@@ -1,0 +1,434 @@
+{
+   "cancelButton": {
+      "message": "取消"
+   },
+   "clouds_dropboxSync": {
+      "message": "與 Dropbox 同步"
+   },
+   "clouds_dropboxSyncDescription": {
+      "message": "同步檔案將會儲存在 /Apps/uBlacklist/"
+   },
+   "clouds_dropboxSyncTurnedOn": {
+      "message": "已與 Dropbox 同步"
+   },
+   "clouds_googleDriveSync": {
+      "message": "與 Google Drive 同步"
+   },
+   "clouds_googleDriveSyncDescription": {
+      "message": "同步檔案將會儲存在一個使用者不可見的應用程式資料夾中。"
+   },
+   "clouds_googleDriveSyncTurnedOn": {
+      "message": "已與 Google Drive 同步"
+   },
+   "content_blockSiteLink": {
+      "message": "封鎖這個網站"
+   },
+   "content_hideBlockedSitesLink": {
+      "message": "隱藏"
+   },
+   "content_multipleSitesBlocked": {
+      "message": "uBlacklist 已經封鎖 $1 個網站"
+   },
+   "content_showBlockedSitesLink": {
+      "message": "顯示"
+   },
+   "content_singleSiteBlocked": {
+      "message": "uBlacklist 已經封鎖 1 個網站"
+   },
+   "content_unblockSiteLink": {
+      "message": "解除封鎖這個網站"
+   },
+   "error": {
+      "message": "錯誤：$1"
+   },
+   "extensionDescription": {
+      "message": "封鎖 Google 搜尋結果中的特定網站結果"
+   },
+   "extensionName": {
+      "message": "uBlacklist"
+   },
+   "lang": {
+      "message": "zh-tw"
+   },
+   "okButton": {
+      "message": "確定"
+   },
+   "options_aboutDocumentation": {
+      "message": "文件"
+   },
+   "options_aboutPrivacyPolicy": {
+      "message": "隱私權保護政策"
+   },
+   "options_aboutReleaseNotes": {
+      "message": "發行說明"
+   },
+   "options_aboutThirdPartyNotices": {
+      "message": "第三方聲明"
+   },
+   "options_aboutTitle": {
+      "message": "關於 uBlacklist"
+   },
+   "options_aboutVersion": {
+      "message": "版本"
+   },
+   "options_addSubscriptionButton": {
+      "message": "加入訂閱"
+   },
+   "options_addSubscriptionDialog_addButton": {
+      "message": "加入"
+   },
+   "options_addSubscriptionDialog_nameLabel": {
+      "message": "名稱"
+   },
+   "options_addSubscriptionDialog_title": {
+      "message": "加入訂閱項目"
+   },
+   "options_addSubscriptionDialog_urlLabel": {
+      "message": "網址"
+   },
+   "options_appearanceTitle": {
+      "message": "外觀"
+   },
+   "options_backupRestoreTitle": {
+      "message": "備份和還原"
+   },
+   "options_backupSettingsButton": {
+      "message": "備份"
+   },
+   "options_backupSettingsLabel": {
+      "message": "備份設定"
+   },
+   "options_blacklistExample": {
+      "message": "舉例：$1"
+   },
+   "options_blacklistHelper": {
+      "message": "您可以使用 [匹配模式](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Match_patterns) 或 [正規表達式](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)。"
+   },
+   "options_blacklistLabel": {
+      "message": "在 Google 搜尋結果中被封鎖的網站"
+   },
+   "options_blacklistUpdated": {
+      "message": "已更新"
+   },
+   "options_blockByTitle": {
+      "message": "要使用網頁標題來封鎖網站，請在正規表達式前新增「title」。"
+   },
+   "options_blockColor": {
+      "message": "被封鎖的搜尋結果的顏色"
+   },
+   "options_blockWholeSiteDescription": {
+      "message": "例如若封鎖「https://a.b.example.uk.com/」，會加入「*://*.example.uk.com/*」規則。"
+   },
+   "options_blockWholeSiteLabel": {
+      "message": "預設在新增規則時，封鎖整個網站"
+   },
+   "options_colorSpecify": {
+      "message": "自訂"
+   },
+   "options_colorUseDefault": {
+      "message": "預設"
+   },
+   "options_dialogTheme": {
+      "message": "搜尋結果中，「封鎖這個網站」對話框的主題"
+   },
+   "options_dialogThemeDark": {
+      "message": "深色"
+   },
+   "options_dialogThemeDefault": {
+      "message": "預設"
+   },
+   "options_dialogThemeLight": {
+      "message": "淺色"
+   },
+   "options_exportBlacklistButton": {
+      "message": "匯出"
+   },
+   "options_generalTitle": {
+      "message": "一般"
+   },
+   "options_hideBlockLinksLabel": {
+      "message": "隱藏「封鎖這個網站」的連結"
+   },
+   "options_hideControlLabel": {
+      "message": "隱藏封鎖的網站數量和「顯示」連結"
+   },
+   "options_highlightColorAdd": {
+      "message": "增加"
+   },
+   "options_highlightColorNth": {
+      "message": "色彩 $1"
+   },
+   "options_highlightColorRemove": {
+      "message": "刪除"
+   },
+   "options_highlightColors": {
+      "message": "強調顯示的搜尋結果顏色"
+   },
+   "options_highlightDescription": {
+      "message": "若要使用「顏色 N」來強調顯示某筆搜尋結果，請在規則前加上「@N」。"
+   },
+   "options_importBlacklistButton": {
+      "message": "匯入"
+   },
+   "options_importBlacklistDialog_append": {
+      "message": "附加到現有清單"
+   },
+   "options_importBlacklistDialog_fromFile": {
+      "message": "從檔案匯入"
+   },
+   "options_importBlacklistDialog_fromPB": {
+      "message": "從 Personal Blocklist 匯入"
+   },
+   "options_importBlacklistDialog_helper": {
+      "message": "貼上從 Personal Blocklist 匯出的網域清單。"
+   },
+   "options_importBlacklistDialog_importButton": {
+      "message": "匯入"
+   },
+   "options_importBlacklistDialog_pbLabel": {
+      "message": "網域"
+   },
+   "options_importBlacklistDialog_selectFile": {
+      "message": "選擇檔案"
+   },
+   "options_importBlacklistDialog_title": {
+      "message": "匯入"
+   },
+   "options_initializeSettingsButton": {
+      "message": "初始化"
+   },
+   "options_initializeSettingsConfirmation": {
+      "message": "確定要將設定初始化嗎？"
+   },
+   "options_initializeSettingsLabel": {
+      "message": "初始化設定"
+   },
+   "options_linkColor": {
+      "message": "連結的顏色"
+   },
+   "options_noSubscriptionsAdded": {
+      "message": "未加入訂閱項目"
+   },
+   "options_otherSearchEngines": {
+      "message": "其他搜尋引擎"
+   },
+   "options_otherSearchEnginesDescription": {
+      "message": "您可以針對其他搜尋引擎也使用本擴充套件。"
+   },
+   "options_registerSearchEngine": {
+      "message": "啟用"
+   },
+   "options_reloadBlacklistButton": {
+      "message": "重新載入"
+   },
+   "options_removeSubscriptionMenu": {
+      "message": "移除"
+   },
+   "options_restoreSettingsButton": {
+      "message": "還原"
+   },
+   "options_restoreSettingsInvalidFile": {
+      "message": "檔案格式無效"
+   },
+   "options_restoreSettingsLabel": {
+      "message": "還原設定"
+   },
+   "options_saveBlacklistButton": {
+      "message": "儲存"
+   },
+   "options_searchEngineRegistered": {
+      "message": "已啟用"
+   },
+   "options_showSubscriptionDialog_blacklistLabel": {
+      "message": "規則"
+   },
+   "options_showSubscriptionMenu": {
+      "message": "顯示"
+   },
+   "options_skipBlockDialogLabel": {
+      "message": "加入封鎖清單時，不顯示「封鎖這個網站」對話框"
+   },
+   "options_subscriptionCheckBoxLabel": {
+      "message": "已啟用"
+   },
+   "options_subscriptionFeature": {
+      "message": "訂閱黑名單"
+   },
+   "options_subscriptionFeatureDescription": {
+      "message": "如果您加入訂閱，將定期從指定的網址下載黑名單。"
+   },
+   "options_subscriptionMenuButtonLabel": {
+      "message": "選單"
+   },
+   "options_subscriptionNameHeader": {
+      "message": "名稱"
+   },
+   "options_subscriptionTitle": {
+      "message": "訂閱"
+   },
+   "options_subscriptionURLHeader": {
+      "message": "網址"
+   },
+   "options_subscriptionUpdateResultHeader": {
+      "message": "最近更新"
+   },
+   "options_subscriptionUpdateRunning": {
+      "message": "更新中…"
+   },
+   "options_syncAppearance": {
+      "message": "外觀設定"
+   },
+   "options_syncBlocklist": {
+      "message": "封鎖的網站"
+   },
+   "options_syncCategories": {
+      "message": "要同步的資料"
+   },
+   "options_syncFeature": {
+      "message": "雲端同步"
+   },
+   "options_syncFeatureDescription": {
+      "message": "可透過雲端服務，在您的不同裝置間同步黑名單資料。"
+   },
+   "options_syncFeatureUpdated": {
+      "message": "同步功能已更新。若要繼續使用同步功能，請點選「開啟同步」按鈕。"
+   },
+   "options_syncGeneral": {
+      "message": "一般設定"
+   },
+   "options_syncInterval": {
+      "message": "同步間隔"
+   },
+   "options_syncNever": {
+      "message": "從未同步"
+   },
+   "options_syncNowButton": {
+      "message": "立即同步"
+   },
+   "options_syncReloadButton": {
+      "message": "重新載入"
+   },
+   "options_syncResult": {
+      "message": "最近同步"
+   },
+   "options_syncRunning": {
+      "message": "同步中…"
+   },
+   "options_syncSubscriptions": {
+      "message": "訂閱項目"
+   },
+   "options_syncTitle": {
+      "message": "同步"
+   },
+   "options_turnOffSync": {
+      "message": "關閉"
+   },
+   "options_turnOnSync": {
+      "message": "開啟同步"
+   },
+   "options_turnOnSyncDialog_altFlowAuthCodeLabel": {
+      "message": "認證碼"
+   },
+   "options_turnOnSyncDialog_altFlowDescription": {
+      "message": "在登入之前，可能會向您請求存取 $1 的權限，但您的個人資訊不會儲存在該網域中。"
+   },
+   "options_turnOnSyncDialog_title": {
+      "message": "開啟同步"
+   },
+   "options_turnOnSyncDialog_turnOnSyncButton": {
+      "message": "開啟"
+   },
+   "options_turnOnSyncDialog_useAltFlow": {
+      "message": "用新分頁開啟登入頁面"
+   },
+   "options_updateAllSubscriptionsNowButton": {
+      "message": "立即更新"
+   },
+   "options_updateInterval": {
+      "message": "更新間隔"
+   },
+   "options_updateSubscriptionNowMenu": {
+      "message": "立即更新"
+   },
+   "popup_activateButton": {
+      "message": "啟用"
+   },
+   "popup_active": {
+      "message": "已啟用 uBlacklist"
+   },
+   "popup_addedRulesLabel": {
+      "message": "要加入的規則"
+   },
+   "popup_blockSiteButton": {
+      "message": "封鎖"
+   },
+   "popup_blockSiteTitle": {
+      "message": "封鎖這個網站"
+   },
+   "popup_details": {
+      "message": "詳細資訊"
+   },
+   "popup_inactive": {
+      "message": "已停用 uBlacklist"
+   },
+   "popup_openOptionsLink": {
+      "message": "選項"
+   },
+   "popup_pageTitleLabel": {
+      "message": "網頁標題"
+   },
+   "popup_pageURLLabel": {
+      "message": "頁面網址"
+   },
+   "popup_pathDepth": {
+      "message": "深度"
+   },
+   "popup_removedRulesLabel": {
+      "message": "要刪除的規則"
+   },
+   "popup_unblockSiteButton": {
+      "message": "解除封鎖"
+   },
+   "popup_unblockSiteTitle": {
+      "message": "解除封鎖這個網站"
+   },
+   "searchEngines_bingDescription_firefox": {
+      "message": "請關閉「在新的索引標籤或視窗中開啟搜尋結果中的連結」選項。"
+   },
+   "searchEngines_bingName": {
+      "message": "Bing"
+   },
+   "searchEngines_braveName": {
+      "message": "Brave"
+   },
+   "searchEngines_duckduckgoName": {
+      "message": "DuckDuckGo"
+   },
+   "searchEngines_ecosiaName": {
+      "message": "Ecosia"
+   },
+   "searchEngines_googleName": {
+      "message": "Google"
+   },
+   "searchEngines_qwantDescription": {
+      "message": "請關閉「總是在 Qwant.com 播放影片」選項。"
+   },
+   "searchEngines_qwantName": {
+      "message": "Qwant"
+   },
+   "searchEngines_searxName": {
+      "message": "SearX"
+   },
+   "searchEngines_startpageName": {
+      "message": "Startpage.com"
+   },
+   "searchEngines_yahooJapanName": {
+      "message": "Yahoo! JAPAN"
+   },
+   "searchEngines_yandexName": {
+      "message": "Yandex"
+   },
+   "unauthorizedError": {
+      "message": "未授權。請關閉同步，然後再次開啟。"
+   }
+}

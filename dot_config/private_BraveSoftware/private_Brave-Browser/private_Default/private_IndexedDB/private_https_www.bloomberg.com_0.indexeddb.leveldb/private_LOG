@@ -1,0 +1,6 @@
+2023/09/12-21:12:40.793 7cca Creating DB /home/jonas/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.bloomberg.com_0.indexeddb.leveldb since it was missing.
+2023/09/12-21:12:40.812 7cca Reusing MANIFEST /home/jonas/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.bloomberg.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/09/12-21:13:13.772 7ccb Level-0 table #5: started
+2023/09/12-21:13:13.778 7ccb Level-0 table #5: 840 bytes OK
+2023/09/12-21:13:13.791 7ccb Delete type=0 #3
+2023/09/12-21:13:13.791 7ccb Manual compaction at level-0 from (begin) .. (end); will stop at (end)

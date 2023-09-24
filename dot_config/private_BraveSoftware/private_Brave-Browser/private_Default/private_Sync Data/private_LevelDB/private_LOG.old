@@ -1,0 +1,24 @@
+2023/09/22-10:06:28.650 56436 Reusing MANIFEST /home/jonas/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/MANIFEST-000001
+2023/09/22-10:06:28.651 56436 Recovering log #50
+2023/09/22-10:06:28.657 56436 Reusing old log /home/jonas/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/000050.log 
+2023/09/22-10:54:00.586 56436 Level-0 table #55: started
+2023/09/22-10:54:00.613 56436 Level-0 table #55: 62480 bytes OK
+2023/09/22-10:54:00.647 56436 Delete type=0 #50
+2023/09/22-12:45:17.511 56436 Level-0 table #57: started
+2023/09/22-12:45:17.532 56436 Level-0 table #57: 56062 bytes OK
+2023/09/22-12:45:17.556 56436 Delete type=0 #54
+2023/09/22-14:37:35.510 56436 Level-0 table #59: started
+2023/09/22-14:37:35.531 56436 Level-0 table #59: 55739 bytes OK
+2023/09/22-14:37:35.565 56436 Delete type=0 #56
+2023/09/22-16:34:25.440 56436 Level-0 table #61: started
+2023/09/22-16:34:25.462 56436 Level-0 table #61: 55596 bytes OK
+2023/09/22-16:34:25.486 56436 Delete type=0 #58
+2023/09/22-16:34:25.486 56436 Compacting 4@0 + 1@1 files
+2023/09/22-16:34:25.498 56436 Generated table #62@0: 167 keys, 21871 bytes
+2023/09/22-16:34:25.498 56436 Compacted 4@0 + 1@1 files => 21871 bytes
+2023/09/22-16:34:25.510 56436 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/09/22-16:34:25.510 56436 Delete type=2 #52
+2023/09/22-16:34:25.510 56436 Delete type=2 #55
+2023/09/22-16:34:25.510 56436 Delete type=2 #57
+2023/09/22-16:34:25.510 56436 Delete type=2 #59
+2023/09/22-16:34:25.510 56436 Delete type=2 #61

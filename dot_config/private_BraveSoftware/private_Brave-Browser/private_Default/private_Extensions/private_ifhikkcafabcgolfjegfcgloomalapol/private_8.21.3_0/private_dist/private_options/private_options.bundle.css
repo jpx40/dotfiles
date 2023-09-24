@@ -1,0 +1,47 @@
+/*!***************************************************************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./src/options/Main/Form/Form.css ***!
+  \***************************************************************************************************************/
+.Form__Form--cGoJb {
+}
+
+.Form__inputSection--IysQn:not(:first-child) {
+    margin-top: 10px;
+}
+
+.Form__accordionSummary--ZMZJ_ {
+    margin-left: 10px;
+}
+
+/*!**********************************************************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./src/options/Main/Main.css ***!
+  \**********************************************************************************************************/
+.Main__Main--DVTOE {
+}
+
+.Main__baseBlock--EUDCf {
+    width: 410px;
+    margin: 0 auto;
+    padding: 20px;
+}
+@media screen and (min-width: 640px) {
+    .Main__baseBlock--EUDCf {
+        width: 570px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .Main__baseBlock--EUDCf {
+        width: 698px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .Main__baseBlock--EUDCf {
+        width: 954px;
+    }
+}
+
+.Main__MainUiWrapper--Ms1ip {
+    border-radius: 5px;
+    box-shadow: 2px 4px 10px 0 rgb(0 0 0 / 25%);
+    padding: 40px;
+}
+

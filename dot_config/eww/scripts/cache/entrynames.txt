@@ -1,0 +1,377 @@
+
+3D LUT Maker
+About Xfce
+Advanced Network Configuration
+Alacritty
+Android Keyboard (AOSP)
+Anki
+AntiMicroX
+Apex Legends
+Arduino IDE v2
+Ark
+Avahi SSH Server Browser
+Avahi VNC Server Browser
+Avahi Zeroconf Browser
+Baldur's Gate 3
+BalenaEtcher
+Bitwarden
+BleachBit
+Bluetooth Adapters
+Bluetooth Manager
+Bomber
+Bookworm
+Bottles
+Bovo
+Brave
+Browse C: Drive
+Browser
+Btrfs Assistant
+CLion
+CMake
+Calculator
+Calendar
+Calibre
+Camera
+Chromium B.S.U.
+Cinny
+Clight
+Clock
+Cockpit Client
+Code - OSS
+Color Profile Viewer
+Configure Wine
+Constance Demo
+Contacts
+Control Ultimate Edition
+CopyQ
+CoreCtrl
+Cuphead
+Curve Viewer
+Customize Look and Feel
+Dead Cells
+Dex Demo
+Discord
+DisplayCAL
+Document Scanner
+Dolphin
+Dosbox
+Droidcam
+E-book editor
+E-book viewer
+ELDEN RING
+Easy Effects
+Electron 22
+Electron 24
+Electron 25
+Element
+Elisa
+Emoji Selector
+FBReader
+Fancontrol-GUI
+Fcitx 5
+Fcitx 5 Configuration
+Ferdium
+Files
+Files
+FireDragon
+Firefox Web Browser
+Firewall
+Firmware
+Flatseal
+Font Downloader
+Font Manager
+Font Viewer
+FontForge
+Foot
+Foot Client
+Foot Server
+Fractal
+GNS3
+GNU Image Manipulation Program
+GOverlay
+GTK Settings
+GVim
+Gallery
+Garuda Assistant
+Garuda Boot Options
+Garuda Gamer
+Garuda Network Assistant
+Garuda Settings Manager
+Garuda System Maintenance Settings
+Garuda Welcome
+Git Cola
+Git DAG
+GoLand
+Godot Engine
+Goose Goose Duck
+Granatier
+Gwenview
+Hades
+Hardware Locality (lstopo)
+Hardware Locality lstopo
+Helix
+Helvum
+Heroic Games Launcher
+Htop
+IBus Preferences
+ICC Profile Info
+IPFS Desktop
+Icon Browser
+Icon Browser
+Icon Library
+Info Center
+IntelliJ IDEA Ultimate Edition
+JamesDSP
+JetBrains Toolbox
+Jupyter Qt console
+KAtomic
+KBlackBox
+KBlocks
+KBounce
+KBreakOut
+KCalc
+KDE Connect
+KDE Connect Indicator
+KDE Connect SMS
+KDE Connect Settings
+KDE Partition Manager
+KDE System Settings
+KDiamond
+KFourInLine
+KGet
+KGoldrunner
+KGpg
+KJumpingCube
+KMahjongg
+KMines
+KNetWalk
+KPatience
+KRDC
+KReversi
+KSnakeDuel
+KSpaceDuel
+KSquares
+KSudoku
+KSysGuard
+KTorrent
+KTouch
+KWrite
+Kajongg
+Kapman
+Kate
+Kdenlive
+Keyboard Visualizer
+Kigo
+Killbots
+Kiriki
+Klickety
+Klipper
+Knights
+Kolf
+Kollision
+Kolor Lines
+Komikku
+Kompare
+Konquest
+Konsole
+Krfb
+KsirK
+KsirK Skin Editor
+Kubrick
+Kvantum Manager
+LACT
+LRF viewer
+LSkat
+Libinput Gestures
+LibreOffice
+LibreOffice Base
+LibreOffice Calc
+LibreOffice Draw
+LibreOffice Impress
+LibreOffice Math
+LibreOffice Writer
+LibreSprite
+Lutris
+LyX
+Manage Printing
+Menu Editor
+Micro
+Minecraft Launcher
+Minetest
+Minigalaxy
+Modem Manager GUI
+Mumble
+Music
+Naval Battle
+Neovim
+New Drawing
+Nextcloud Desktop
+NieR:Automata™
+NoiseTorch
+Notepad
+OBS Studio
+ONLYOFFICE Desktop Editors
+Obsidian
+Octopi
+Octopi CacheCleaner
+Okular
+Open on connected device via KDE Connect
+OpenJDK Java 20 Console
+OpenJDK Java 20 Shell
+OpenRGB
+OpenSnitch
+Oracle VM VirtualBox
+Oversteer
+PCSX2
+Pace
+Pacman Log Viewer
+Palapeli
+Panel
+Passwords and Keys
+Picmi
+Piper
+Planner
+Podman Desktop
+Pomatez
+Pomotroid
+Portal 2
+Potato Guy
+Print Settings
+Profile Loader
+Proton 8.0
+Proton EasyAntiCheat Runtime
+Proton Experimental
+Proton Mail Bridge
+Protontricks
+Psensor
+PulseAudio Volume Control
+PyCharm Professional Edition
+Qt Assistant
+Qt Creator
+Qt Designer
+Qt Linguist
+Qt QDBusViewer 
+Qt V4L2 test Utility
+Qt V4L2 video capture utility
+Qt4 Assistant 
+Qt4 Designer
+Qt4 Linguist 
+Qt4 QDbusViewer 
+Qt5 Settings
+Qt6 Settings
+Qwikaccess
+RPCS3
+RPCS3
+Radeon Profile
+Rain World
+Reboot To UEFI
+Recorder
+Reflector Simple
+Remmina
+Remote Viewer
+Retro
+RetroArch
+Rofi
+Rofi Theme Selector
+RustDesk
+SameGame
+Screenshot
+Scripting Client
+Settings
+Setup Assistant
+Shisen-Sho
+Signal
+Snapper Tools
+Software Token
+Software Token (small)
+Solaar
+SoundWire Server
+Spectacle
+Speedometer (xgpsspeed)
+Spotify
+Spyder
+Steam (Native)
+Steam (Runtime)
+Steam Linux Runtime - Sniper
+Steam Tinker Launch (Settings)
+Suspend/Hibernate
+Synthetic ICC
+System Monitor
+System Profiler and Benchmark
+System Settings
+Tails of Iron
+Teeworlds
+Testchart Editor
+Texmaker
+Thunderbird
+Uninstall Wine Software
+UserFeedback Console
+VDU Controls
+VLC media player
+VMware Player
+VMware Workstation
+VRML to X3D
+VSCodium
+Vim
+Virtual Machine Manager
+Virtual Network Editor
+Waydroid
+Waydroid
+WebCord
+WebStorm
+WezTerm
+Wifi Hotspot
+Winetricks
+Wireshark
+XCOM 2
+XDvi
+Xgps
+Xtreme Download Manager
+YAD settings
+YAD settings
+Zenmonitor
+Zenmonitor (root)
+aircrack-ng
+bastet
+bettercap
+btop++
+coppwr
+cpupower-gui
+darkstat
+ddcui
+dsniff
+elfutils
+fish
+gdb
+gdb-common
+gtkcord4
+guiscrcpy
+hashcat
+hashcat-utils
+hping
+ikhal
+ipython
+john
+kitty
+libinput-gestures-qt
+lldb
+mari0
+mingsweeper
+mpv Media Player
+ncspot
+nheko
+nitrogen
+nsnake
+nvtop
+pyinstaller
+qBittorrent
+qpwgraph
+scapy
+scrcpy
+scrcpy (console)
+tcpdump
+wireshark-cli
+wireshark-qt
+yara
+yay
+yuzu

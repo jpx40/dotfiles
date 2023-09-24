@@ -1,0 +1,366 @@
+{
+   "actionMenu_contribute": {
+      "message": "Contribute"
+   },
+   "actionMenu_openCurrentDoc": {
+      "message": "Open current page"
+   },
+   "actionMenu_options": {
+      "message": "Options"
+   },
+   "actionMenu_support": {
+      "message": "Support"
+   },
+   "actionTitle_allEngines": {
+      "message": "Search all engines for page"
+   },
+   "actionTitle_engine": {
+      "message": "Search $ENGINE$ for page",
+      "placeholders": {
+         "engine": {
+            "content": "$1",
+            "example": "Google"
+         }
+      }
+   },
+   "buttonLabel_contribute": {
+      "message": "Contribute"
+   },
+   "buttonTooltip_contribute": {
+      "message": "Contribute"
+   },
+   "buttonTooltip_menu": {
+      "message": "Menu"
+   },
+   "buttonTooltip_openCurrentDoc": {
+      "message": "Open current page"
+   },
+   "buttonTooltip_options": {
+      "message": "Options"
+   },
+   "buttonTooltip_pin": {
+      "message": "Pin"
+   },
+   "buttonTooltip_searchMode": {
+      "message": "Search mode"
+   },
+   "buttonTooltip_unpin": {
+      "message": "Unpin"
+   },
+   "engineName_allEngines": {
+      "message": "All search engines"
+   },
+   "engineName_archiveIs": {
+      "message": "Archive.is"
+   },
+   "engineName_archiveIsAll": {
+      "message": "Archive.is (all)"
+   },
+   "engineName_archiveOrg": {
+      "message": "Wayback Machine"
+   },
+   "engineName_archiveOrgAll": {
+      "message": "Wayback Machine (all)"
+   },
+   "engineName_bing": {
+      "message": "Bing"
+   },
+   "engineName_ghostarchive": {
+      "message": "Ghostarchive"
+   },
+   "engineName_google": {
+      "message": "Google"
+   },
+   "engineName_googleText": {
+      "message": "Google (text-only)"
+   },
+   "engineName_megalodon": {
+      "message": "Megalodon"
+   },
+   "engineName_memento": {
+      "message": "Memento"
+   },
+   "engineName_permacc": {
+      "message": "Perma.cc"
+   },
+   "engineName_yahoo": {
+      "message": "Yahoo"
+   },
+   "engineName_yandex": {
+      "message": "Yandex"
+   },
+   "error_allEnginesDisabled": {
+      "message": "All search engines have been disabled. Visit the extensions's options to enable a search engine."
+   },
+   "error_currentDocUrlNotFound": {
+      "message": "Current page URL not found."
+   },
+   "error_engine": {
+      "message": "Something went wrong. Searching on $ENGINE$ has failed.",
+      "placeholders": {
+         "engine": {
+            "content": "$1",
+            "example": "Google"
+         }
+      }
+   },
+   "error_invalidPageUrl": {
+      "message": "The page URL is not valid."
+   },
+   "error_invalidSearchModeMobile_url": {
+      "message": "Searching for page URLs is only supported from the browser menu popup. Visit the extension's options to select a different search mode."
+   },
+   "error_invalidSearchMode_url": {
+      "message": "Searching for page URLs is only supported from the browser toolbar popup. Visit the extension's options to select a different search mode."
+   },
+   "error_noResults": {
+      "message": "No results found."
+   },
+   "error_noSearchEngineAccess": {
+      "message": "Cannot access search page results. Visit Menu > Extensions and enable the \"Allow access to search page results\" option for the extension."
+   },
+   "error_optionsNotApplied": {
+      "message": "Restart the browser for changes to take effect."
+   },
+   "error_scriptsNotAllowed": {
+      "message": "Content scripts are not allowed on this page."
+   },
+   "error_sessionExpired": {
+      "message": "The session has expired."
+   },
+   "error_sessionExpiredEngine": {
+      "message": "The session has expired. Try searching again for the page on $ENGINE$.",
+      "placeholders": {
+         "engine": {
+            "content": "$1",
+            "example": "Google"
+         }
+      }
+   },
+   "extensionDescription": {
+      "message": "View archived and cached versions of web pages on 10+ search engines, such as the Wayback Machine, Archive.is and Google."
+   },
+   "extensionName": {
+      "message": "Web Archives"
+   },
+   "inputPlaceholder_docUrl": {
+      "message": "Page URL"
+   },
+   "mainMenuItemTitle_allEngines": {
+      "message": "Search all engines for page"
+   },
+   "mainMenuItemTitle_engine": {
+      "message": "Search $ENGINE$ for page",
+      "placeholders": {
+         "engine": {
+            "content": "$1",
+            "example": "Google"
+         }
+      }
+   },
+   "menuItemTitle_allEngines": {
+      "message": "All search engines"
+   },
+   "menuItemTitle_archiveIs": {
+      "message": "Archive.is"
+   },
+   "menuItemTitle_archiveIsAll": {
+      "message": "Archive.is (all)"
+   },
+   "menuItemTitle_archiveOrg": {
+      "message": "Wayback Machine"
+   },
+   "menuItemTitle_archiveOrgAll": {
+      "message": "Wayback Machine (all)"
+   },
+   "menuItemTitle_bing": {
+      "message": "Bing"
+   },
+   "menuItemTitle_ghostarchive": {
+      "message": "Ghostarchive"
+   },
+   "menuItemTitle_google": {
+      "message": "Google"
+   },
+   "menuItemTitle_googleText": {
+      "message": "Google (text-only)"
+   },
+   "menuItemTitle_megalodon": {
+      "message": "Megalodon"
+   },
+   "menuItemTitle_memento": {
+      "message": "Memento"
+   },
+   "menuItemTitle_openCurrentDoc": {
+      "message": "Open current page"
+   },
+   "menuItemTitle_permacc": {
+      "message": "Perma.cc"
+   },
+   "menuItemTitle_yahoo": {
+      "message": "Yahoo"
+   },
+   "menuItemTitle_yandex": {
+      "message": "Yandex"
+   },
+   "optionSectionDescription_engines": {
+      "message": "Toggle search engines and customize their order (drag and drop)"
+   },
+   "optionSectionTitleMobile_toolbar": {
+      "message": "Browser menu"
+   },
+   "optionSectionTitle_contextmenu": {
+      "message": "Context menu"
+   },
+   "optionSectionTitle_engines": {
+      "message": "Search engines"
+   },
+   "optionSectionTitle_misc": {
+      "message": "Miscellaneous"
+   },
+   "optionSectionTitle_toolbar": {
+      "message": "Browser toolbar"
+   },
+   "optionTitle_appTheme": {
+      "message": "Theme"
+   },
+   "optionTitle_archiveIs": {
+      "message": "Archive.is"
+   },
+   "optionTitle_archiveIsAll": {
+      "message": "Archive.is (all)"
+   },
+   "optionTitle_archiveOrg": {
+      "message": "Wayback Machine"
+   },
+   "optionTitle_archiveOrgAll": {
+      "message": "Wayback Machine (all)"
+   },
+   "optionTitle_bing": {
+      "message": "Bing Cache"
+   },
+   "optionTitle_ghostarchive": {
+      "message": "Ghostarchive"
+   },
+   "optionTitle_google": {
+      "message": "Google Cache"
+   },
+   "optionTitle_googleText": {
+      "message": "Google Cache (text-only)"
+   },
+   "optionTitle_megalodon": {
+      "message": "Megalodon"
+   },
+   "optionTitle_memento": {
+      "message": "Memento Time Travel"
+   },
+   "optionTitle_openCurrentDocContextMenu": {
+      "message": "Open current page"
+   },
+   "optionTitle_permacc": {
+      "message": "Perma.cc"
+   },
+   "optionTitle_searchAllEngines": {
+      "message": "Search all engines"
+   },
+   "optionTitle_searchMode": {
+      "message": "Search mode"
+   },
+   "optionTitle_showContribPage": {
+      "message": "Show contribution page"
+   },
+   "optionTitle_showEngineIcons": {
+      "message": "Show search engine icons"
+   },
+   "optionTitle_showInContextMenu": {
+      "message": "Visibility"
+   },
+   "optionTitle_showPageAction": {
+      "message": "Show in address bar on server error"
+   },
+   "optionTitle_tabInBackgound": {
+      "message": "Open new tabs in the background"
+   },
+   "optionTitle_yahoo": {
+      "message": "Yahoo Cache"
+   },
+   "optionTitle_yandex": {
+      "message": "Yandex Cache"
+   },
+   "optionValue_action_searchModeAction_tab": {
+      "message": "Tab"
+   },
+   "optionValue_action_searchModeAction_url": {
+      "message": "URL"
+   },
+   "optionValue_appTheme_auto": {
+      "message": "System default"
+   },
+   "optionValue_appTheme_dark": {
+      "message": "Dark"
+   },
+   "optionValue_appTheme_light": {
+      "message": "Light"
+   },
+   "optionValue_searchAllEnginesActionMobile_false": {
+      "message": "Disable"
+   },
+   "optionValue_searchAllEnginesActionMobile_main": {
+      "message": "From browser menu"
+   },
+   "optionValue_searchAllEnginesActionMobile_sub": {
+      "message": "From browser menu popup"
+   },
+   "optionValue_searchAllEnginesAction_false": {
+      "message": "Disable"
+   },
+   "optionValue_searchAllEnginesAction_main": {
+      "message": "From browser toolbar"
+   },
+   "optionValue_searchAllEnginesAction_sub": {
+      "message": "From browser toolbar popup"
+   },
+   "optionValue_searchAllEnginesContextMenu_false": {
+      "message": "Disable"
+   },
+   "optionValue_searchAllEnginesContextMenu_main": {
+      "message": "From context menu"
+   },
+   "optionValue_searchAllEnginesContextMenu_sub": {
+      "message": "From submenu of context menu"
+   },
+   "optionValue_searchModeAction_tab": {
+      "message": "Tab"
+   },
+   "optionValue_searchModeAction_url": {
+      "message": "URL"
+   },
+   "optionValue_showInContextMenu_all": {
+      "message": "Show"
+   },
+   "optionValue_showInContextMenu_false": {
+      "message": "Hide"
+   },
+   "optionValue_showInContextMenu_link": {
+      "message": "Show for links"
+   },
+   "pageTitle": {
+      "message": "$PAGETITLE$ - $EXTENSIONNAME$",
+      "placeholders": {
+         "extensionName": {
+            "content": "$2",
+            "example": "Extension Name"
+         },
+         "pageTitle": {
+            "content": "$1",
+            "example": "Options"
+         }
+      }
+   },
+   "pageTitle_contribute": {
+      "message": "Contribute"
+   },
+   "pageTitle_options": {
+      "message": "Options"
+   }
+}

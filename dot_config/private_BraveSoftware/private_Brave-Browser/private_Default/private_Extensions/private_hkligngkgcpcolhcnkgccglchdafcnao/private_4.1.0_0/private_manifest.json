@@ -1,0 +1,53 @@
+{
+   "author": "Armin Sebastian",
+   "background": {
+      "page": "src/background/index.html"
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "src/assets/icons/app/icon-128.png",
+         "16": "src/assets/icons/app/icon-16.png",
+         "19": "src/assets/icons/app/icon-19.png",
+         "24": "src/assets/icons/app/icon-24.png",
+         "32": "src/assets/icons/app/icon-32.png",
+         "38": "src/assets/icons/app/icon-38.png",
+         "48": "src/assets/icons/app/icon-48.png",
+         "64": "src/assets/icons/app/icon-64.png",
+         "96": "src/assets/icons/app/icon-96.png"
+      }
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "js": [ "src/base/script.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; connect-src *; object-src 'none'; child-src 'none'; form-action 'none';",
+   "default_locale": "en",
+   "description": "__MSG_extensionDescription__",
+   "homepage_url": "https://github.com/dessant/web-archives",
+   "icons": {
+      "128": "src/assets/icons/app/icon-128.png",
+      "16": "src/assets/icons/app/icon-16.png",
+      "19": "src/assets/icons/app/icon-19.png",
+      "24": "src/assets/icons/app/icon-24.png",
+      "32": "src/assets/icons/app/icon-32.png",
+      "38": "src/assets/icons/app/icon-38.png",
+      "48": "src/assets/icons/app/icon-48.png",
+      "64": "src/assets/icons/app/icon-64.png",
+      "96": "src/assets/icons/app/icon-96.png"
+   },
+   "incognito": "split",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjUVGtaxtXLNPe3MFcWgOA7wN7/iRsSxHKFZEPM6GzB5aDDIsW3xjzWjYitMg5lFxP+Iof3UetoKudIPKaxaNAKcCRUGLOLxYe3yQCXP1QTkOVcxIQYUR58rf7j/Rc345t0DCv6qvOIvzvUUPw0gd5br6gpuC26Bdoa3O1LMKtduKvCqQwETwWfMkJ8iJQYU7MDljnaZ39uGAEDmqsxEcFmLxgsOxSlQonb3Qy0xSKuSnUDimfTVz5/AzlXxuaioMfdVa9nt+hOArKwXjBALomVah+znYJUK0Rjt9cAbLfhZr6LXQwWZWeqYnJRv8CE6Da+r5NMjJrfdUXevv4Q3x2QIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "92.0",
+   "name": "__MSG_extensionName__",
+   "options_ui": {
+      "chrome_style": false,
+      "open_in_tab": true,
+      "page": "src/options/index.html"
+   },
+   "permissions": [ "alarms", "contextMenus", "storage", "unlimitedStorage", "tabs", "activeTab", "notifications", "webRequest", "webRequestBlocking", "\u003Call_urls>" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.1.0"
+}

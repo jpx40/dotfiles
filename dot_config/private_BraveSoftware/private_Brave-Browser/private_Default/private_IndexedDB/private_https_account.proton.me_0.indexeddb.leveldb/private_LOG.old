@@ -1,0 +1,6 @@
+2023/09/11-22:11:05.493 4768 Creating DB /home/jonas/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_account.proton.me_0.indexeddb.leveldb since it was missing.
+2023/09/11-22:11:05.512 4768 Reusing MANIFEST /home/jonas/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_account.proton.me_0.indexeddb.leveldb/MANIFEST-000001
+2023/09/11-22:11:07.870 476c Level-0 table #5: started
+2023/09/11-22:11:07.877 476c Level-0 table #5: 1322 bytes OK
+2023/09/11-22:11:07.889 476c Delete type=0 #3
+2023/09/11-22:11:07.889 476c Manual compaction at level-0 from (begin) .. (end); will stop at (end)

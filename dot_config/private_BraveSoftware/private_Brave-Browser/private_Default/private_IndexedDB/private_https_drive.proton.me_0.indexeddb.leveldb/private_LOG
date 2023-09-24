@@ -1,0 +1,36 @@
+2023/09/18-17:47:53.591 129e Reusing MANIFEST /home/jonas/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_drive.proton.me_0.indexeddb.leveldb/MANIFEST-000001
+2023/09/18-17:47:53.592 129e Recovering log #8
+2023/09/18-17:47:53.592 129e Reusing old log /home/jonas/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_drive.proton.me_0.indexeddb.leveldb/000008.log 
+2023/09/18-17:47:53.592 129e Delete type=2 #7
+2023/09/18-17:47:53.620 12a0 Level-0 table #13: started
+2023/09/18-17:47:53.626 12a0 Level-0 table #13: 732 bytes OK
+2023/09/18-17:47:53.645 12a0 Delete type=0 #8
+2023/09/18-17:47:53.645 12a0 Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at '\x00\x04\x00\x00\x05' @ 65 : 1
+2023/09/18-17:47:53.645 12a0 Compacting 1@0 + 1@1 files
+2023/09/18-17:47:53.657 12a0 Generated table #14@0: 16 keys, 853 bytes
+2023/09/18-17:47:53.657 12a0 Compacted 1@0 + 1@1 files => 853 bytes
+2023/09/18-17:47:53.682 12a0 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/09/18-17:47:53.682 12a0 Delete type=2 #13
+2023/09/18-17:47:53.683 12a0 Manual compaction at level-0 from '\x00\x04\x00\x00\x05' @ 65 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/09/18-17:47:53.688 12ae Level-0 table #16: started
+2023/09/18-17:47:53.695 12ae Level-0 table #16: 855 bytes OK
+2023/09/18-17:47:53.708 12ae Delete type=2 #10
+2023/09/18-17:47:53.708 12ae Delete type=0 #12
+2023/09/18-17:47:53.708 129d Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at '\x00\x06\x00\x00\x05' @ 95 : 1
+2023/09/18-17:47:53.708 129d Compacting 1@0 + 1@1 files
+2023/09/18-17:47:53.714 129d Generated table #17@0: 18 keys, 689 bytes
+2023/09/18-17:47:53.714 129d Compacted 1@0 + 1@1 files => 689 bytes
+2023/09/18-17:47:53.727 129d compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/09/18-17:47:53.727 129d Delete type=2 #16
+2023/09/18-17:47:53.727 129d Manual compaction at level-0 from '\x00\x06\x00\x00\x05' @ 95 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/09/18-17:47:53.728 129d Level-0 table #19: started
+2023/09/18-17:47:53.734 129d Level-0 table #19: 252 bytes OK
+2023/09/18-17:47:53.747 129d Delete type=2 #14
+2023/09/18-17:47:53.747 129d Delete type=0 #15
+2023/09/18-17:47:53.747 129d Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at '\x00\x06\x00\x00\x05' @ 116 : 0
+2023/09/18-17:47:53.747 129d Compacting 1@0 + 1@1 files
+2023/09/18-17:47:53.754 129d Generated table #20@0: 16 keys, 856 bytes
+2023/09/18-17:47:53.754 129d Compacted 1@0 + 1@1 files => 856 bytes
+2023/09/18-17:47:53.766 129d compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/09/18-17:47:53.766 129d Delete type=2 #19
+2023/09/18-17:47:53.767 129d Manual compaction at level-0 from '\x00\x06\x00\x00\x05' @ 116 : 0 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)

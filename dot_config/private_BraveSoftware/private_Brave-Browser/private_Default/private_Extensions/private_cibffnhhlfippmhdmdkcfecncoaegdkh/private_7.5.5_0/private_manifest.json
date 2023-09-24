@@ -1,0 +1,22 @@
+{
+   "action": {
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "description": "Customize any website visually.",
+   "icons": {
+      "128": "icon.png",
+      "16": "icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhfDu9/sjlWbx6kGGQVH40z/TgfmDsB5ZS8xTvgCQQEGa1Jdsp+AQMtseSDYDMqt4gidUMS9bckl80ahmtwohbPRDZmUYhkxb8tQxBGEvqlzAV1UX6AfakCM/siWY3N5TyDMb1koxIU4xo5ofBwl1zTVw7RdLJmf7/XCvPE4KVzBGVQ9QdmK6lpU8fE3f6BJk81dg6oxS+makNFoZ0HqHZqorgQRmkA4L2eTEzkodAFbcJO4hZBnE++z7RBkbUMGID6jnuORFgaWgQLO0LIaJevUDDBveU0WY53KV2gObb+UGDyK13FSAgg1ZWPmXKXLKPbazCY1wrFub3TtNzAW+wwIDAQAB",
+   "manifest_version": 3,
+   "name": "Visual CSS Editor",
+   "permissions": [ "activeTab", "scripting" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "7.5.5",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "editor/*" ]
+   } ]
+}

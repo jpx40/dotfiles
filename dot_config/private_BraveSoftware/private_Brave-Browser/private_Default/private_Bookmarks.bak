@@ -1,0 +1,323 @@
+{
+   "checksum": "0d3fe43a6de87893cfc3e7e67de7d99c",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13329251633187117",
+            "date_last_used": "0",
+            "guid": "f6e39242-35a4-4202-8430-48e256fefbc8",
+            "id": "6",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Using WebAssembly | TinyGo",
+            "type": "url",
+            "url": "https://tinygo.org/docs/guides/webassembly/"
+         }, {
+            "date_added": "13329253225300065",
+            "date_last_used": "0",
+            "guid": "f01499fe-36ed-4da6-9221-6751bc80964b",
+            "id": "7",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "WebAssembly using Go (Golang) | Run Go programs in the browser",
+            "type": "url",
+            "url": "https://golangbot.com/webassembly-using-go/"
+         }, {
+            "date_added": "13329259500932119",
+            "date_last_used": "13336729926164000",
+            "guid": "608f9eff-b6da-4122-8cc3-e2dc75ff0b75",
+            "id": "8",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Data Compression and Archiving — Python 3.11.3 documentation",
+            "type": "url",
+            "url": "https://docs.python.org/3/library/archiving.html"
+         }, {
+            "date_added": "13329261272879709",
+            "date_last_used": "0",
+            "guid": "de563978-7584-4df7-9cb0-7ce9366a9a23",
+            "id": "9",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "subprocess — Subprocess management — Python 3.11.3 documentation",
+            "type": "url",
+            "url": "https://docs.python.org/3/library/subprocess.html"
+         }, {
+            "date_added": "13329423006978382",
+            "date_last_used": "0",
+            "guid": "24d9d72d-fee8-4ed0-b8fe-831b7641c618",
+            "id": "10",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "macos - How can I set my default shell on a Mac, e.g. to Fish? - Stack Overflow",
+            "type": "url",
+            "url": "https://stackoverflow.com/questions/453236/how-can-i-set-my-default-shell-on-a-mac-e-g-to-fish"
+         }, {
+            "date_added": "13329434037255432",
+            "date_last_used": "0",
+            "guid": "91c189c2-73af-4bae-96c2-33b6889d4709",
+            "id": "11",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "How To Install VSCodium on Debian 11 - idroot",
+            "type": "url",
+            "url": "https://idroot.us/install-vscodium-debian-11/"
+         }, {
+            "date_added": "13329434347072847",
+            "date_last_used": "0",
+            "guid": "20e85902-2a05-45ee-bee3-11dbf1e740d8",
+            "id": "12",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "debian - Multi-user text mode runlevel in Ubuntu - Unix & Linux Stack Exchange",
+            "type": "url",
+            "url": "https://unix.stackexchange.com/questions/126930/multi-user-text-mode-runlevel-in-ubuntu"
+         }, {
+            "date_added": "13336646946113956",
+            "date_last_used": "0",
+            "guid": "ca4dbcc3-b8cc-4854-be70-342168602a55",
+            "id": "13",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "GitHub - rocketlaunchr/awesome-svelte: Awesome Svelte: Useful resources for developing Svelte applications",
+            "type": "url",
+            "url": "https://github.com/rocketlaunchr/awesome-svelte"
+         }, {
+            "date_added": "13336647111330059",
+            "date_last_used": "0",
+            "guid": "cb118a91-0181-449f-8ace-7b102a196d77",
+            "id": "14",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "GitHub - himynameisdave/svelte-frappe-charts: 📈 Svelte bindings for frappe-charts.",
+            "type": "url",
+            "url": "https://github.com/himynameisdave/svelte-frappe-charts"
+         }, {
+            "date_added": "13336658639226356",
+            "date_last_used": "0",
+            "guid": "7dd9d645-beab-4b73-9e9f-8b2c51ebcb85",
+            "id": "15",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Fn Project · GitHub",
+            "type": "url",
+            "url": "https://github.com/fnproject"
+         }, {
+            "date_added": "13336733544482282",
+            "date_last_used": "0",
+            "guid": "4f66e22c-e5fa-47c5-ba6c-5058026b6937",
+            "id": "16",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Web APIs | MDN",
+            "type": "url",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/API#specifications"
+         }, {
+            "date_added": "13337416939828974",
+            "date_last_used": "0",
+            "guid": "ea878ad1-82b4-4f6a-aa93-31bf02383f7f",
+            "id": "17",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "pacman - ArchWiki",
+            "type": "url",
+            "url": "https://wiki.archlinux.org/title/Pacman"
+         }, {
+            "date_added": "13337430153424243",
+            "date_last_used": "0",
+            "guid": "4e3db6ed-b153-4d38-8b48-fd78f6340d13",
+            "id": "18",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Matomo Analytics - The Google Analytics alternative that protects your data",
+            "type": "url",
+            "url": "https://matomo.org/"
+         }, {
+            "date_added": "13337692019257451",
+            "date_last_used": "0",
+            "guid": "3e98fc45-6c48-4cb4-8730-789b648abe05",
+            "id": "19",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Running Bash commands in Python - Stack Overflow",
+            "type": "url",
+            "url": "https://stackoverflow.com/questions/4256107/running-bash-commands-in-python"
+         }, {
+            "date_added": "13337729421734330",
+            "date_last_used": "0",
+            "guid": "7bae08d3-1880-4f56-9c58-e2e8d78e0502",
+            "id": "20",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Basic SQL Queries & SQL Cheat Sheet | MariaDB Knowledge Base",
+            "type": "url",
+            "url": "https://mariadb.com/kb/en/basic-sql-statements/"
+         }, {
+            "date_added": "13337729437535523",
+            "date_last_used": "0",
+            "guid": "f0ccdc87-f5c4-411c-a601-89bda949cc21",
+            "id": "21",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Introduction to Python SQL Libraries – Real Python",
+            "type": "url",
+            "url": "https://realpython.com/python-sql-libraries/#sqlite"
+         }, {
+            "date_added": "13338328575905006",
+            "date_last_used": "0",
+            "guid": "82334bcf-5792-4968-98b5-2942222535cf",
+            "id": "22",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Web Components - Web APIs | MDN",
+            "type": "url",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Components"
+         }, {
+            "date_added": "13339112423042242",
+            "date_last_used": "0",
+            "guid": "72b7b03a-c334-4b93-8f53-b908af79b01e",
+            "id": "25",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "About ryantupo - Twitch",
+            "type": "url",
+            "url": "https://www.twitch.tv/ryantupo/videos"
+         }, {
+            "date_added": "13339160336646793",
+            "date_last_used": "0",
+            "guid": "3fcf9a23-212a-43fa-9873-9dcc446133cb",
+            "id": "24",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Doku5.docx",
+            "type": "url",
+            "url": "https://atiw-my.sharepoint.com/:w:/r/personal/jonas_peitz_s-atiw_de/_layouts/15/doc2.aspx?sourcedoc=%7BDFAB817A-207C-44EE-B795-059992947427%7D&file=Doku5.docx&action=default&mobileredirect=true&ct=1694681735684&wdOrigin=OFFICECOM-WEB.START.UPLOAD&cid=9d14cd01-82c6-4d91-af5b-5f6fd40344c1&wdPreviousSessionSrc=HarmonyWeb&wdPreviousSession=4bd77cd5-dcf6-4bd5-a350-ff2e8ceac072"
+         }, {
+            "date_added": "13339184279405270",
+            "date_last_used": "0",
+            "guid": "9685ff28-eb89-482b-8443-89a501eae85b",
+            "id": "26",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "General-purpose dotfiles utilities - dotfiles.github.io",
+            "type": "url",
+            "url": "https://dotfiles.github.io/utilities/"
+         }, {
+            "date_added": "13339192638519678",
+            "date_last_used": "0",
+            "guid": "f6bc4a4b-11d7-4425-9706-0908a0ac31ee",
+            "id": "27",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Input remap utilities - ArchWiki",
+            "type": "url",
+            "url": "https://wiki.archlinux.org/title/Input_remap_utilities"
+         }, {
+            "date_added": "13339241839634151",
+            "date_last_used": "0",
+            "guid": "2f3c0961-7b9b-4f45-a2a9-f0c0dce56d98",
+            "id": "29",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Backlight - ArchWiki",
+            "type": "url",
+            "url": "https://wiki.archlinux.org/title/Backlight#Wayland"
+         }, {
+            "date_added": "13339670952501096",
+            "date_last_used": "0",
+            "guid": "81816e32-2aba-4986-9da2-0f228d153e2f",
+            "id": "34",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "OpenSSH - ArchWiki",
+            "type": "url",
+            "url": "https://wiki.archlinux.org/title/OpenSSH"
+         }, {
+            "date_added": "13339673553964144",
+            "date_last_used": "0",
+            "guid": "fadacc1f-19d8-4e6d-af51-c378663c07c7",
+            "id": "32",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Ark UI",
+            "type": "url",
+            "url": "https://ark-ui.com/"
+         }, {
+            "date_added": "13339752949335497",
+            "date_last_used": "0",
+            "guid": "9cabbd19-c5c2-476d-b032-8dc6c62e52e9",
+            "id": "33",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Crypto | Node.js v20.7.0 Documentation",
+            "type": "url",
+            "url": "https://nodejs.org/api/crypto.html"
+         }, {
+            "date_added": "13339753009198207",
+            "date_last_used": "0",
+            "guid": "f4f67163-69ae-40b3-ad0a-d1e424a8fcaa",
+            "id": "31",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "NAT traversal - Wikipedia",
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/NAT_traversal"
+         } ],
+         "date_added": "13338812173337519",
+         "date_last_used": "0",
+         "date_modified": "13339753009198207",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13338812173337521",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13338812173337522",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CooBChAIiIECEgqU0um+12IAAAAAEgAaWFREODB0S1ZRc3BSQ3ZnVUM0ODRkTkVtU1JpZnUwQXp2WlY4ZkxzV0pmak1oZzliODljQWEyV1p5cGFzYU9rUmhQMjVQdkd4bTlRSFFVNHh5SEtaZzhBPT0qGDV4M2NzWC9vS1dVOUxnQTZ1bGEwNEE9PUgDEqoBCCESpQEKHElvM21WRkdrUHFiSUFnZkJLejgwQUtwU0JlTT0SJGU2ZDA4YWRhLTFiYTgtNGMzMC1iYTk5LTkxNGNhMDdjYjBhZhgAIAIoAjCK6bTfqzE42PyXtKsxQObntN+rMUocY2FXVWFnV1Y2TGxYTFk2K3lQY3Jjd0kxc3c0PVohIh////1nRWJ3aHZETlpCS09OdjVZUHI1d1FrTWFvL3M9ZQJuFdwSqgEIHxKlAQocQ2hzb1pYMjVTYUdtd21sbitTdm5COSttcitrPRIkMjlmMmQwNjYtYzJmMC00YmViLWFkZTItMWE4MTg4NjQ4NjBiGAAgAigCMIXptN+rMTiu0Ju0qzFA5ee036sxShxpOEJMdExiYTRuQU0wMjgxN2diN0NpT0Foak09WiEiH////mhRa3BMVlM0THNxdzMrVWVXenNMblZ4eFhRRT1l4S5ZEBKqAQgaEqUBChxpeTR3TWJLUWZ5MmVBZkwyRXhsdXBWU3A2eEE9EiRiYjY5NTg5Zi05OTQ4LTQwYmItOWM3NC0xYzYyMWIzYjg1ZmQYACACKAIwptaDpakxOO2Og6WpMUDQw4OlqTFKHEcrMHcrOG80QWFoaHNkaVpXV1d0TXV0ODJ6QT1aISIf//+pSWNEaHdIWHNLcVF6c1Iway9PUlQ4Z1FaREpFPWVkgR3+EqkBCBgSpAEKHE85WWRlMFp4R1I2TnNtODJaUmw3bXZ1aklKbz0SJGI4NzAzMDE4LWRmZmYtNDlmYS05Y2U0LWIxNGM2ZTUzMDhlZhgAIAAoADC2882ZqTE4h+LNmakxQIfizZmpMUocMWxYRVVwN1g3dk83S0hhZmMyYVJFKzlxaW13PVogIh7//1M0c1NKUUZ5WVVhOFk2aW01Q20yYTNXRHpDND1lAAAAABKpAQgQEqQBChxZYm1NM0NuYlVPUUpvRDVoK2cxaDZHSEhXRm89EiRkNDY4MTJiOC02ODZlLTQ4OTYtOWFmMi0yZjIzN2MyNDEzOTgYACAAKAAwrO3S86cxOKfi0vOnMUCn4tLzpzFKHDhWYzdmZGJyQm9xTXJFejk5Yzd5b2JTdjhvcz1aICIe/7JiSWhqOUg1Q0k4YzVUVkErWmlRSzZwN09xVVE9ZW2gn/USqQEIERKkAQoceGdWNzhMd1l2SndTa3Z2Q3JqK2dUZGZxNEc4PRIkYzcwM2Y4YjMtOWJhOS00NDE3LTgzZjctMGY0NTRlZjMzMjExGAAgACgAML/u0vOnMTin4tLzpzFAp+LS86cxShxDTGljbXpSQU1zUmVHc24vbWxKWXJmd2t5SWM9WiAiHv/ZaEpBc0NWWTVtL2wxRUtmYkpTc0pDS1NsU0RrPWVLYQq7EqgBCAYSowEKHDU4bW84OXJjZitHNFAyUjFFTlFoTC9oZGJKQT0SJGQwMzVjOTBjLWFmYjktNGVkYS1iNTlmLWQwMGM5NTZhNDRhNxgAIAIoAjDIzdfzpzE4p+LS86cxQPbK1/OnMUocZDhIN3VTOTc0MldKTFRSUkU4eG9odkV1b2pRPVofIh22UVI1N1dlQWRNWnNYcTZ5M095OTh1Z2RsR05VPWVTPNpXEqkBCBkSpAEKHEtwYXlFRVFYRG95S05rRzN1aE5ueXppbUJDUT0SJDIzNjgxMjc2LWY2NzQtNGZkMS04Njc2LWRmOWEyN2ZmNjZjYhgAIAIoAjDvxOukqTE4g63hgqkxQMzD66SpMUocSFZzdkpGdlExQXFsVTJCalozbEJ5ZWR0VTRVPVogIh7//zZ0UHFxTm4vRmlrNWZCYXkzVXlDendFQ2ErQT1l44DKahKoAQgIEqMBChxqSzY1Q1E2L3RUUVl5b1lRd0NaMmNTbjJoeXM9EiQ3MTE1MDEzNy0yZTk0LTQzNDAtYmI3YS04YWYzMTNmOGEzZjMYACACKAIwrM3X86cxOKfi0vOnMUD3ytfzpzFKHG9HMTdmUkZQdFNCU1VnNHpETGF5cklWbml2Yz1aHyId7WsrL3kwNWFOTWtOd2o3ZGJ1Y21OQ1I1aVBLUT1loyjrExKqAQgbEqUBChx5aHN2Z1BVQXRtTHRJZ2NZTEt6SHFXTndSanM9EiQ0Mjk3ODE4NC1iYzM2LTQ2MjUtOWJkOC1hZGUwMGE5N2Q4N2YYACACKAIw+rqBqakxOLiogampMUC8qIGpqTFKHGUvZ2JXNWpIZjUvR3FRRVVaRE85RUhaR1c2VT1aISIf///USTZucDJTUldCeSt2RE0wTGRRWGhaaWR1NHZRPWVLYQq7EqkBCBYSpAEKHDdiSUROdXBkZTVXeEltS09YaHFRdTA0RkZzZz0SJDgzMjE1ZjczLTYxOTUtNDJjOS04YTZjLTVlZjY4MTg5MDYyMRgAIAAoADDQ7tLzpzE4p+LS86cxQKfi0vOnMUoccEM5K01ENE1QUldpOHBneHVhVTdSanM0UmdvPVogIh7//jRDTDZoK0l3UFozb0cveTZoaVo3WE5TNjFpbz1lbaCf9RKDAQgBEn8KHHl4Si82ZnZrZWNyN2twNUVRekI0dFdMcGRiRT0SJGFmOTgyMDcyLTk2MzItNDk3ZS1iZTIzLTA0M2Q5YTNjNTBjMBgAIAAoADABOO3d0vOnMUDt3dLzpzFKHGFSQ1dMZ2hGOWI1SW5xS0lEdnVKL2p2UWtGYz1aAGUAAAAAEqgBCAkSowEKHDJMRzAvcHpqNWVxanZ6Tys5TlpEcysyMC9wVT0SJGIyOGExNTI3LWNkYmEtNGI0YS04OWViLWMzYmNlZDkwYzQ2ZBgAIAIoAjCnzdfzpzE4p+LS86cxQPfK1/OnMUocY3dpZFdKSTVxSzVHaTIrM3VSVmd3MFNubmM4PVofIh32UWpHOFlrZTFqdDByZHA2RFFLR1pkZTNNUHdFPWWjKOsTEqgBCAsSowEKHCt3VEZERTV5ZXYwWEp6QXRUbWlZL2dyQzRWcz0SJDhiNTFhMDU4LTY2NDQtNDEzMi1hMTUyLWIyYzQwNTI5N2EzMxgAIAIoAjC2zdfzpzE4p+LS86cxQPjK1/OnMUoccko3aVFTWkkzc1NvQVV1ZWprZW14SXZmRG9FPVofIh39QThmMHNiSUlmSkdNUlUyeTFGd3JuMjh5WVdRPWUEbWq9EqgBCAoSowEKHHdHSlVhVXpzYXo1Sm1lTjcyekxnUTFRcTYycz0SJGY5MmM3OWNmLWRhMzUtNGExNS04ZGQwLTA4ZmIxYTNkMzYwMRgAIAIoAjCxzdfzpzE4p+LS86cxQPjK1/OnMUocTjRFMkZsWE9KUzh1NEZtRTAwNlppRklJUUxvPVofIh37aS9DV0daQ1M2K2t4RU54VEZCcmRJSFgrdGVjPWUPzDQUEoMBCAMSfwocbmpnRHU4OGVDcnZYcDg2cEQ3ZkhHY3FGcDg4PRIkOThmZWIzMjUtM2RmOS00YzcyLWFmNDYtNjE5ZjdjY2RlM2VlGAAgACgAMAE47d3S86cxQO3d0vOnMUoceXpOQjAxY241NEE3Y1JVMHVUKy9QZ21UdFVvPVoAZQAAAAASqAEIDxKjAQocZWdLY0U2N2hwVnZlY2F3OTgrc0ZaUGdSTWZZPRIkZTk5NGU0YjYtNDEyZi00ZDg0LWI3YTUtMmZjNTY3MjU3NjkxGAAgAigCMNPN1/OnMTin4tLzpzFA+crX86cxShxkdUdWVnJ6cXJVdGVrN0ZPMTl5WEU0WXBBdVE9Wh8iHf9kRGxRNWp0d3hWZGJZV1ZEaXNMeFdsays1bkk9ZV1Hj4MSqgEIIhKlAQocV1JRUVNnUEdYOE9ZaFNGaUg5TzlUaVFzT2p3PRIkMmRiYzYzYWQtMzdkNy00Y2ZiLTliNDMtYmZmY2Y1ZTYzMGEzGAAgAigCMPHotN+rMTi1pIuNqzFA5ue036sxShx4d0JDVnRiMUsrd2QvclJCRFV2SFFMTXdyODA9WiEiH///9XREdSs1Q1RvTDBQbldFTjRuYUN3NWY4K1h0RT1lS2EKuxKoAQgNEqMBChxHT2h3TEJzMEhnWENMb3lGNHR3RHJ1bGxZckE9EiQwODgwYzM1Yy0zYmIyLTRiMGMtYjZjOC03YWI2MWQ2YzVkMzIYACACKAIwzc3X86cxOKfi0vOnMUD5ytfzpzFKHDNVeE13VDVOTWlldlduUFpodnk0emVvL0pKYz1aHyId/1dBVVhJNmFKVGx2L05qc3l5Z1YweTBJMWlDcz1l1Ezo0BKpAQgVEqQBChw3OWxEcVF3TEZqTDExd2tMRlN3TVpUdi9LMUU9EiQ4MzdmZmMyNy02MjYwLTRhMWEtODNiMC04ODA2M2NkYzJmOGEYACAAKAAw6+3S86cxOKfi0vOnMUCn4tLzpzFKHG1hczBMamVxN1J1aWRldEpxQlpGbHNINHRkcz1aICIe//1KczIrQXRQQ3A4UjlMUm5mRU5aQmxnWXgvTEk9Zaj+SAQSqAEIBxKjAQocSHVITkY2ejRTN3ZXK1JZaFF5QXltQnRxeFFjPRIkODYxMTBlYWQtMzIxYS00MTdjLWE5MGMtMmQ0NTA4ZTljZDgyGAAgAigCML/N1/OnMTin4tLzpzFA9srX86cxShxxcTN6dEdtQVBMNE5JR0dxd0FHZ0dTaXIzUWc9Wh8iHdtvcThiRmM2WW1EeEVGMUZmeTBxZUxlRWxFWFk9ZS+ramsSqAEIDBKjAQocVzBtK1dEL0NIM1BxcWJWbXlVelJlZFMxZGFzPRIkNDY2NzljMTMtOWMzZS00YzI2LWFkOWUtNzc3M2QxY2UwZjcxGAAgAigCMMTN1/OnMTin4tLzpzFA+MrX86cxShxSOTdibmxrdXVFUVhqWnpFZ0NFWUdTTXo0cEU9Wh8iHf56NkZqUjBNekhJaks2UE4vODZKT3dUYlVEK1k9ZehtUQISqQEIExKkAQocVm9VUjgwM0tidkU0Q1BHb3plZmZHL0dSb2dNPRIkM2MxNDRlMGMtMDFhZC00YmFhLWFlMzMtNjI4NmViNWYwYjNiGAAgACgAMMvt0vOnMTin4tLzpzFAp+LS86cxShw3UVM3L0t2ZDg3T2d1OG1Yckd3T216VWdvMkU9WiAiHv/2MERmVkI5SkpyWDM1T01MYXVJVk9oQTdESlBZPWUPzDQUEqoBCCASpQEKHDVrKzhYNmo5Qldhb3lFUTJPQyt6RGdJdGNHcz0SJDgwNTJiZTE5LTlkYTItNDFjZS05MjhjLWQ0YjliYWZiNjNkYxgAIAIoAjD36LTfqzE4rIiqjqsxQObntN+rMUocbFdGQk1JY3lPeFBCTFdjWldZUHFkRjNYNjV3PVohIh////o1dGU5RjAyRDRWU2VOSTRVdmJ2T3BoclVVYVk9ZawNcvYSqgEIHRKlAQocd1grKzlydlFTRWJHdklyelBDK0J4MFpMNXZFPRIkODlhMTM3OTItNWI1Ny00MzBlLWI0MWItOWJhMDhiMDQyZmM1GAAgACgAMOm7vMCpMTiSqLzAqTFAkqi8wKkxShx5UWtTZWFsMWtySDNySkZSZHVxT1djWFJVQXc9WiEiH///6mE3VlFFYTJPK0tlcXpueGNEVzRQekJaRjI2ND1lS2EKuxKDAQgCEn8KHFljU1RvbnZFU1B3cUNzNEwyY3JWaHY2OEw5OD0SJGNhYmQ5MjgzLWU5MDYtNDYxZC05NzlhLWRiMWRkZTgxNTE3MBgAIAAoADABOO3d0vOnMUDt3dLzpzFKHG9QVmtod0JSYlY2NUtDV1IyK0lPTkhXb091OD1aAGUAAAAAEqkBCBQSpAEKHERnS0FBYkVDVVZ6Z0FtK0I2cWdUSC8zWCtCRT0SJDNkZmI2Mjc4LTcxMGQtNDMzNi05ODA5LWE5MGVhNzMzMTJiZhgAIAAoADCO7tLzpzE4p+LS86cxQKfi0vOnMUocSEpGTHJaMnFJZWlVTGFHbkc4ckd5bnQ3TkxzPVogIh7/+zR3V1RCQ043clk1QWE3MGd2NDBJR0toamNQdz1l4p9GFxKoAQgOEqMBChw4TUduTGFKRGduc21MaHQ3L0duZHNyUXZpOUU9EiRiYzhkMWE5Yy1lMTg1LTRkMTAtYTA4Yy05MGU2YmIwNTdjYTUYACACKAIwu83X86cxOKfi0vOnMUD5ytfzpzFKHHNHMGg1TVRQNjMrVk5aMmFPc3RaaHd0SElwbz1aHyId/2JRcUdpTFR3OWlTTGlUMFhqcUo2aDJKYS9zWT1lXUePgxKpAQgSEqQBChx4UkRSeUdwWDBkZnI0bDZTamJRd1VweDBLL0U9EiQ0ZGFjM2RiZS1mMDJlLTQyODEtYWY1My05ODdkMzI3OTY1ZmEYACAAKAAw++3S86cxOKfi0vOnMUCn4tLzpzFKHEhFNGlVWWVuM21vWithaDRkeGo2dmNENk94az1aICIe/+xwTVpjQ2t2MnZiTklvQmhjY1lZbmtvQUJHOHM9ZWNqW4MwATgA",
+   "version": 1
+}

@@ -1,0 +1,6 @@
+2023/09/14-21:19:34.778 d06 Reusing MANIFEST /home/jonas/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_word-edit.officeapps.live.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/09/14-21:19:34.778 d06 Recovering log #3
+2023/09/14-21:19:34.778 d06 Reusing old log /home/jonas/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_word-edit.officeapps.live.com_0.indexeddb.leveldb/000003.log 
+2023/09/14-23:02:48.494 d07 Level-0 table #5: started
+2023/09/14-23:02:48.518 d07 Level-0 table #5: 1781808 bytes OK
+2023/09/14-23:02:48.532 d07 Delete type=0 #3

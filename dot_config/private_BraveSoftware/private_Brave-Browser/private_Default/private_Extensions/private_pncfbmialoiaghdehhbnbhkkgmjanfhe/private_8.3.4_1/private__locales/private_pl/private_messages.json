@@ -1,0 +1,434 @@
+{
+   "cancelButton": {
+      "message": "Anuluj"
+   },
+   "clouds_dropboxSync": {
+      "message": "Synchronizuj z Dropbox"
+   },
+   "clouds_dropboxSyncDescription": {
+      "message": "Plik zostanie utworzony w folderze \"/Apps/uBlacklist/\"."
+   },
+   "clouds_dropboxSyncTurnedOn": {
+      "message": "Zsynchronizowano z Dropbox"
+   },
+   "clouds_googleDriveSync": {
+      "message": "Synchronizuj z Google Drive"
+   },
+   "clouds_googleDriveSyncDescription": {
+      "message": "Plik zostanie utworzony w ukrytym przed użytkownikiem folderze aplikacji."
+   },
+   "clouds_googleDriveSyncTurnedOn": {
+      "message": "Zsynchonizowano z Google Drive"
+   },
+   "content_blockSiteLink": {
+      "message": "Zablokuj witrynę"
+   },
+   "content_hideBlockedSitesLink": {
+      "message": "Schowaj"
+   },
+   "content_multipleSitesBlocked": {
+      "message": "Rozszerzenie uBlacklist zablokowało $1 witryn"
+   },
+   "content_showBlockedSitesLink": {
+      "message": "Pokaż"
+   },
+   "content_singleSiteBlocked": {
+      "message": "Rozszerzenie uBlacklist zablokowało 1 witrynę"
+   },
+   "content_unblockSiteLink": {
+      "message": "Odblokuj witrynę"
+   },
+   "error": {
+      "message": "Błąd: $1"
+   },
+   "extensionDescription": {
+      "message": "Blokuj wybrane witryny w wynikach wyszukiwania Google"
+   },
+   "extensionName": {
+      "message": "uBlacklist"
+   },
+   "lang": {
+      "message": "pl"
+   },
+   "okButton": {
+      "message": "OK"
+   },
+   "options_aboutDocumentation": {
+      "message": "Dokumentacja"
+   },
+   "options_aboutPrivacyPolicy": {
+      "message": "Polityka prywatności"
+   },
+   "options_aboutReleaseNotes": {
+      "message": "Informacje o wydaniu"
+   },
+   "options_aboutThirdPartyNotices": {
+      "message": "Oświadczenia o prawach autorskich stron trzecich"
+   },
+   "options_aboutTitle": {
+      "message": "O uBlacklist"
+   },
+   "options_aboutVersion": {
+      "message": "Wersja"
+   },
+   "options_addSubscriptionButton": {
+      "message": "Dodaj subskrypcję"
+   },
+   "options_addSubscriptionDialog_addButton": {
+      "message": "Dodaj"
+   },
+   "options_addSubscriptionDialog_nameLabel": {
+      "message": "Nazwa"
+   },
+   "options_addSubscriptionDialog_title": {
+      "message": "Dodaj subskrypcję"
+   },
+   "options_addSubscriptionDialog_urlLabel": {
+      "message": "URL"
+   },
+   "options_appearanceTitle": {
+      "message": "Wygląd"
+   },
+   "options_backupRestoreTitle": {
+      "message": "Kopia zapasowa i przywracanie"
+   },
+   "options_backupSettingsButton": {
+      "message": "Utwórz kopię zapasową"
+   },
+   "options_backupSettingsLabel": {
+      "message": "Kopia zapasowa ustawień"
+   },
+   "options_blacklistExample": {
+      "message": "Przykład: $1"
+   },
+   "options_blacklistHelper": {
+      "message": "Możesz użyć [wzorców dopasowania](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Match_patterns) lub [wyrażeń regularnych](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)."
+   },
+   "options_blacklistLabel": {
+      "message": "Witryny zablokowane w wynikach wyszukiwania Google"
+   },
+   "options_blacklistUpdated": {
+      "message": "Zaktualizowano"
+   },
+   "options_blockByTitle": {
+      "message": "Aby zablokować witryny według tytułu strony, dodaj \"title\" przed wyrażeniem regularnym."
+   },
+   "options_blockColor": {
+      "message": "Kolor zablokowanych wyników wyszukiwania"
+   },
+   "options_blockWholeSiteDescription": {
+      "message": "Na przykład, aby zablokować stronę \"https://a.b.example.uk.com/\", zostanie dodana reguła \"*://*.example.uk.com/*\"."
+   },
+   "options_blockWholeSiteLabel": {
+      "message": "Domyślnie blokuj całą witrynę"
+   },
+   "options_colorSpecify": {
+      "message": "Niestandardowy"
+   },
+   "options_colorUseDefault": {
+      "message": "Domyślny"
+   },
+   "options_dialogTheme": {
+      "message": "Motyw okna dialogowego \"Zablokuj tę witrynę\" w wynikach wyszukiwania"
+   },
+   "options_dialogThemeDark": {
+      "message": "Ciemny"
+   },
+   "options_dialogThemeDefault": {
+      "message": "Domyślny"
+   },
+   "options_dialogThemeLight": {
+      "message": "Jasny"
+   },
+   "options_exportBlacklistButton": {
+      "message": "Eksportuj"
+   },
+   "options_generalTitle": {
+      "message": "Ogólne"
+   },
+   "options_hideBlockLinksLabel": {
+      "message": "Ukryj linki \"Zablokuj witrynę\""
+   },
+   "options_hideControlLabel": {
+      "message": "Ukryj liczbę zablokowanych witryn i link \"Pokaż\""
+   },
+   "options_highlightColorAdd": {
+      "message": "Dodaj"
+   },
+   "options_highlightColorNth": {
+      "message": "Kolor $1"
+   },
+   "options_highlightColorRemove": {
+      "message": "Usuń"
+   },
+   "options_highlightColors": {
+      "message": "Kolory podświetlonych wyników wyszukiwania"
+   },
+   "options_highlightDescription": {
+      "message": "Aby podświetlić wyniki wyszukiwania kolorem N, dodaj \"@N\" przed regułą."
+   },
+   "options_importBlacklistButton": {
+      "message": "Importuj"
+   },
+   "options_importBlacklistDialog_append": {
+      "message": "Dołącz do istniejącej listy"
+   },
+   "options_importBlacklistDialog_fromFile": {
+      "message": "Importuj z pliku"
+   },
+   "options_importBlacklistDialog_fromPB": {
+      "message": "Importuj z Personalnej listy blokowania"
+   },
+   "options_importBlacklistDialog_helper": {
+      "message": "Wklej domeny wyeksportowane z Personalnej listy blokowania."
+   },
+   "options_importBlacklistDialog_importButton": {
+      "message": "Importuj"
+   },
+   "options_importBlacklistDialog_pbLabel": {
+      "message": "Domeny"
+   },
+   "options_importBlacklistDialog_selectFile": {
+      "message": "Wybierz plik"
+   },
+   "options_importBlacklistDialog_title": {
+      "message": "Importuj"
+   },
+   "options_initializeSettingsButton": {
+      "message": "Inicjalizuj"
+   },
+   "options_initializeSettingsConfirmation": {
+      "message": "Czy na pewno chcesz zainicjalizować ustawienia?"
+   },
+   "options_initializeSettingsLabel": {
+      "message": "Inicializuj ustawienia"
+   },
+   "options_linkColor": {
+      "message": "Kolor linków"
+   },
+   "options_noSubscriptionsAdded": {
+      "message": "Nie dodano subskrypcji"
+   },
+   "options_otherSearchEngines": {
+      "message": "Inne wyszukiwarki"
+   },
+   "options_otherSearchEnginesDescription": {
+      "message": "Możesz użyć tego rozszerzenia na następujących wyszukiwarkach."
+   },
+   "options_registerSearchEngine": {
+      "message": "Włącz"
+   },
+   "options_reloadBlacklistButton": {
+      "message": "Odśwież"
+   },
+   "options_removeSubscriptionMenu": {
+      "message": "Usuń"
+   },
+   "options_restoreSettingsButton": {
+      "message": "Przywróć"
+   },
+   "options_restoreSettingsInvalidFile": {
+      "message": "Nieprawidłowy format pliku."
+   },
+   "options_restoreSettingsLabel": {
+      "message": "Przywracanie ustawień"
+   },
+   "options_saveBlacklistButton": {
+      "message": "Zapisz"
+   },
+   "options_searchEngineRegistered": {
+      "message": "Włączone"
+   },
+   "options_showSubscriptionDialog_blacklistLabel": {
+      "message": "Reguły"
+   },
+   "options_showSubscriptionMenu": {
+      "message": "Pokaż"
+   },
+   "options_skipBlockDialogLabel": {
+      "message": "Pomiń dialog \"Zablokuj tę witrynę\""
+   },
+   "options_subscriptionCheckBoxLabel": {
+      "message": "Włączone"
+   },
+   "options_subscriptionFeature": {
+      "message": "Subskrybuj listy blokowania"
+   },
+   "options_subscriptionFeatureDescription": {
+      "message": "Jeśli dodasz subskrypcję, listy blokowania będą regularnie pobierane z określonego URL."
+   },
+   "options_subscriptionMenuButtonLabel": {
+      "message": "Menu"
+   },
+   "options_subscriptionNameHeader": {
+      "message": "Nazwa"
+   },
+   "options_subscriptionTitle": {
+      "message": "Subskrypcja"
+   },
+   "options_subscriptionURLHeader": {
+      "message": "URL"
+   },
+   "options_subscriptionUpdateResultHeader": {
+      "message": "Ostatnia aktualizacja"
+   },
+   "options_subscriptionUpdateRunning": {
+      "message": "Aktualizacja…"
+   },
+   "options_syncAppearance": {
+      "message": "Wygląd"
+   },
+   "options_syncBlocklist": {
+      "message": "Zablokowane witryny"
+   },
+   "options_syncCategories": {
+      "message": "Wybierz dane do synchronizacji"
+   },
+   "options_syncFeature": {
+      "message": "Synchronizuj z chmurą"
+   },
+   "options_syncFeatureDescription": {
+      "message": "Możesz synchronizować czarne listy pomiędzy urządzeniami za pośrednictwem chmury."
+   },
+   "options_syncFeatureUpdated": {
+      "message": "Funkcja synchronizacji została zaktualizowana. Aby kontynuować korzystanie z synchronizacji, naciśnij przycisk \"Włącz synchronizację\"."
+   },
+   "options_syncGeneral": {
+      "message": "Ustawienia ogólne"
+   },
+   "options_syncInterval": {
+      "message": "Interwał synchronizacji"
+   },
+   "options_syncNever": {
+      "message": "Nigdy nie zsynchronizowano"
+   },
+   "options_syncNowButton": {
+      "message": "Synchronizuj teraz"
+   },
+   "options_syncReloadButton": {
+      "message": "Odśwież"
+   },
+   "options_syncResult": {
+      "message": "Ostatnia synchronizacja"
+   },
+   "options_syncRunning": {
+      "message": "Synchronizacja…"
+   },
+   "options_syncSubscriptions": {
+      "message": "Subskrypcje"
+   },
+   "options_syncTitle": {
+      "message": "Synchronizacja"
+   },
+   "options_turnOffSync": {
+      "message": "Wyłącz"
+   },
+   "options_turnOnSync": {
+      "message": "Włącz synchronizację"
+   },
+   "options_turnOnSyncDialog_altFlowAuthCodeLabel": {
+      "message": "Kod autoryzacyjny"
+   },
+   "options_turnOnSyncDialog_altFlowDescription": {
+      "message": "Możesz być poproszony o zezwolenie na dostęp do $1 przed uwierzytelnieniem, ale Twoje dane osobowe NIE zostaną zapisane w tej domenie."
+   },
+   "options_turnOnSyncDialog_title": {
+      "message": "Włącz synchronizację"
+   },
+   "options_turnOnSyncDialog_turnOnSyncButton": {
+      "message": "Włącz"
+   },
+   "options_turnOnSyncDialog_useAltFlow": {
+      "message": "Otwórz stronę uwierzytelniania w nowej karcie"
+   },
+   "options_updateAllSubscriptionsNowButton": {
+      "message": "Aktualizuj wszystkie teraz"
+   },
+   "options_updateInterval": {
+      "message": "Interwał aktualizacji"
+   },
+   "options_updateSubscriptionNowMenu": {
+      "message": "Aktualizuj teraz"
+   },
+   "popup_activateButton": {
+      "message": "Aktywuj"
+   },
+   "popup_active": {
+      "message": "Rozszerzenie uBlacklist jest aktywne"
+   },
+   "popup_addedRulesLabel": {
+      "message": "Reguły do dodania"
+   },
+   "popup_blockSiteButton": {
+      "message": "Zablokuj"
+   },
+   "popup_blockSiteTitle": {
+      "message": "Zablokuj tę witrynę"
+   },
+   "popup_details": {
+      "message": "Szczegóły"
+   },
+   "popup_inactive": {
+      "message": "Rozszerzenie uBlacklist jest nieaktywne"
+   },
+   "popup_openOptionsLink": {
+      "message": "Ustawienia"
+   },
+   "popup_pageTitleLabel": {
+      "message": "Tytuł strony"
+   },
+   "popup_pageURLLabel": {
+      "message": "URL strony"
+   },
+   "popup_pathDepth": {
+      "message": "Głębokość ścieżki"
+   },
+   "popup_removedRulesLabel": {
+      "message": "Reguły do usunięcia"
+   },
+   "popup_unblockSiteButton": {
+      "message": "Odblokuj"
+   },
+   "popup_unblockSiteTitle": {
+      "message": "Odblokuj tę witrynę"
+   },
+   "searchEngines_bingDescription_firefox": {
+      "message": "Wyłącz \"Otwieraj wyniki wyszukiwania w nowej karcie lub oknie\"."
+   },
+   "searchEngines_bingName": {
+      "message": "Bing"
+   },
+   "searchEngines_braveName": {
+      "message": "Brave"
+   },
+   "searchEngines_duckduckgoName": {
+      "message": "DuckDuckGo"
+   },
+   "searchEngines_ecosiaName": {
+      "message": "Ecosia"
+   },
+   "searchEngines_googleName": {
+      "message": "Google"
+   },
+   "searchEngines_qwantDescription": {
+      "message": "Wyłącz \"Odtwarzaj filmy na Qwant.com\"."
+   },
+   "searchEngines_qwantName": {
+      "message": "Qwant"
+   },
+   "searchEngines_searxName": {
+      "message": "SearX"
+   },
+   "searchEngines_startpageName": {
+      "message": "Startpage.com"
+   },
+   "searchEngines_yahooJapanName": {
+      "message": "Yahoo! JAPAN"
+   },
+   "searchEngines_yandexName": {
+      "message": "Yandex"
+   },
+   "unauthorizedError": {
+      "message": "Błąd autoryzacji. Wyłącz i włącz synchronizację, aby spróbować ponownie."
+   }
+}

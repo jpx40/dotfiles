@@ -1,0 +1,32 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "images/webeditor128.png",
+         "16": "images/webeditor16.png",
+         "32": "images/webeditor32.png",
+         "48": "images/webeditor48.png"
+      }
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "content_scripts": [ {
+      "css": [ "webeditor.css" ],
+      "js": [ "webeditor.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+   "description": "Forget about all the Code chaos and Customize your website in a handy way",
+   "differential_fingerprint": "1.9f477d37f5a86d67a0a9d0dce2f56231e5fd316f97b7d56e54080825cc246393",
+   "icons": {
+      "128": "images/webeditor128.png",
+      "16": "images/webeditor16.png",
+      "32": "images/webeditor32.png",
+      "48": "images/webeditor48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgtaNCFG2sW9BhN8LBmzs6zrjpDUhrSeOljh3BJe+xT+mm/gRS8sE+3jY15mygDDGWDGfzN7qqPSu3VVmIkg9cZJ4OTj0w54cYHZz1X0rp10BMVw22sWmK2FsbtELuTIr7qJNq1W4c02SD8p4uluNm/1A1JhZkyhVDHMksCjXBQC/LPfHOwJb+NSxoT+Bdze5dciPaRxuEVx4ZkXJAHh7fEIdxNQ6n5LIGFZwsSwW4gmLGDEwXiJ2MMwpBpGxoc8fyhy2MSIFHWPSNL7xqxfcuxwRp9us2p9ULl28eWqlToUTIQmT4s8Wd0sZUmQLCKpJQyc2h42OV+Mw9XrA3b0ATwIDAQAB",
+   "manifest_version": 3,
+   "name": "Web Editor",
+   "permissions": [ "activeTab", "contextMenus", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.9"
+}
