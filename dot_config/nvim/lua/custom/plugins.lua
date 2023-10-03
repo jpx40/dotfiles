@@ -24,7 +24,59 @@ local plugins = {
       end
     end,
   },
+  {
+  "folke/noice.nvim",
+  event = "VeryLazy",
+  opts = {
+    -- add any options here
+  },
+  dependencies = {
+    -- if you lazy-load any plugin below, make sure to add proper `module="..."` entries
+    "MunifTanjim/nui.nvim",
+    -- OPTIONAL:
+    --   `nvim-notify` is only needed, if you want to use the notification view.
+    --   If not available, we use `mini` as the fallback
+    "rcarriga/nvim-notify",
 
+    },
+    require("noice").setup({
+  lsp = {
+    -- override markdown rendering so that **cmp** and other plugins use **Treesitter**
+    override = {
+      ["vim.lsp.util.convert_input_to_markdown_lines"] = true,
+      ["vim.lsp.util.stylize_markdown"] = true,
+      ["cmp.entry.get_documentation"] = true,
+    },
+  },
+  -- you can enable a preset for easier configuration
+  presets = {
+    bottom_search = true, -- use a classic bottom cmdline for search
+    command_palette = true, -- position the cmdline and popupmenu together
+    long_message_to_split = true, -- long messages will be sent to a split
+    inc_rename = false, -- enables an input dialog for inc-rename.nvim
+    lsp_doc_border = false, -- add a border to hover docs and signature help
+  },
+})
+
+},
+
+  {
+    'spinks/vim-leader-guide'
+  },
+  {
+    "windwp/nvim-ts-autotag",
+    lazy = false,
+    config = function()
+      require("nvim-ts-autotag").setup()
+    end,
+  },
+
+      {
+    "lambdalisue/suda.vim",
+    event = 'VeryLazy',
+  },
+
+  
   {
     "neovim/nvim-lspconfig",
     dependencies = {
@@ -41,7 +93,21 @@ local plugins = {
       require "custom.configs.lspconfig"
     end, -- Override to setup mason-lspconfig
   },
+{
+  "roobert/tailwindcss-colorizer-cmp.nvim",
+  -- optionally, override the default options:
+  config = function()
+    require("tailwindcss-colorizer-cmp").setup({
+      color_square_width = 2,
+    })
+  end
+},
 
+
+  { "gregorias/nvim-mapper",
+  dependencies = "nvim-telescope/telescope.nvim",
+  config = function() require"nvim-mapper".setup{} end,
+},
   {
     "numToStr/Comment.nvim",
     opts = {
@@ -92,6 +158,11 @@ local plugins = {
     },
     lazy = false,
   },
+  { "rafamadriz/friendly-snippets" },
+  {
+    "iamcco/markdown-preview.nvim",
+    run = function() vim.fn["mkdp#util#install"]() end,
+},
 
   -- override plugin configs
   {
@@ -119,6 +190,38 @@ local plugins = {
     "nvim-tree/nvim-tree.lua",
     opts = overrides.nvimtree,
   },
+
+  {
+  'mrjones2014/legendary.nvim',
+  version = 'v2.1.0',
+  -- since legendary.nvim handles all your keymaps/commands,
+  -- its recommended to load legendary.nvim before other plugins
+  priority = 10000,
+  lazy = false,
+  -- sqlite is only needed if you want to use frecency sorting
+  -- dependencies = { 'kkharji/sqlite.lua' }
+},
+{
+  'folke/flash.nvim',
+  keys = {
+    {
+      's',
+      function()
+        require('flash').jump()
+      end,
+      mode = { 'n', 'x', 'o' },
+      desc = 'Jump forwards',
+    },
+    {
+      'S',
+      function()
+        require('flash').jump({ search = { forward = false } })
+      end,
+      mode = { 'n', 'x', 'o' },
+      desc = 'Jump backwards',
+    },
+  },
+},
 
   -- Install a plugin
   {

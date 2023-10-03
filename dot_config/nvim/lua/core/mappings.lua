@@ -286,7 +286,7 @@ M.telescope = {
     ["<leader>pt"] = { "<cmd> Telescope terms <CR>", "Pick hidden term" },
 
     -- theme switcher
-    ["<leader>th"] = { "<cmd> Telescope themes <CR>", "Nvchad themes" },
+    --["<leader>th"] = { "<cmd> Telescope themes <CR>", "Nvchad themes" },
 
     ["<leader>ma"] = { "<cmd> Telescope marks <CR>", "telescope bookmarks" },
   },
@@ -359,26 +359,26 @@ M.nvterm = {
   },
 }
 
-M.whichkey = {
-  plugin = true,
-
-  n = {
-    ["<leader>wK"] = {
-      function()
-        vim.cmd "WhichKey"
-      end,
-      "Which-key all keymaps",
-    },
-    ["<leader>wk"] = {
-      function()
-        local input = vim.fn.input "WhichKey: "
-        vim.cmd("WhichKey " .. input)
-      end,
-      "Which-key query lookup",
-    },
-  },
-}
-
+-- M.whichkey = {
+--   plugin = true,
+--
+--   n = {
+--     ["<leader>wK"] = {
+--       function()
+--         vim.cmd "WhichKey"
+--       end,
+--       "Which-key all keymaps",
+--     },
+--     ["<leader>wk"] = {
+--       function()
+--         local input = vim.fn.input "WhichKey: "
+--         vim.cmd("WhichKey " .. input)
+--       end,
+--       "Which-key query lookup",
+--     },
+--   },
+-- }
+--
 M.blankline = {
   plugin = true,
 
