@@ -72,7 +72,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git golang ripgrep zoxide z themes nmap systemadmin colemak python fzf) # pipenv
 
 source $ZSH/oh-my-zsh.sh
 
@@ -105,8 +105,18 @@ source $ZSH/oh-my-zsh.sh
 source ~/.zsh/path/path.zsh
 source ~/.zsh/alias/alias.zsh
 
-
+alias br=broot
 
 export LANG=en_US.UTF-8
 
 export LC_ALL=en_US.UTF-8
+
+# bun completions
+[ -s "/home/jonas/.bun/_bun" ] && source "/home/jonas/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+# opam configuration
+[[ ! -r /home/jonas/.opam/opam-init/init.zsh ]] || source /home/jonas/.opam/opam-init/init.zsh  > /dev/null 2> /dev/null
