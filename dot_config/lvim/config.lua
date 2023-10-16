@@ -761,3 +761,18 @@ lvim.keys.normal_mode["k"] = false
 
 
 lvim.format_on_save.enabled = true
+
+
+
+
+lsp_manager.setup("bashls", {
+  on_init = require("lvim.lsp").common_on_init,
+  capabilities = require("lvim.lsp").common_capabilities(),
+  patterns = { "*.sh", "*.zsh" },
+  cmd = { "bash-language-server", "start" },
+  filetypes = { "sh", "zsh" },
+  settings = {
+
+
+  }
+})
