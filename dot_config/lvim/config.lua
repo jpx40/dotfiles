@@ -4,7 +4,23 @@
 -- Discord: https://discord.com/invite/Xb9B4Ny
 
 
+local treesitter_parser_config = require "nvim-treesitter.parsers".get_parser_configs()
+treesitter_parser_config.templ = {
+  install_info = {
+    url = "https://github.com/vrischmann/tree-sitter-templ.git",
+    files = { "src/parser.c", "src/scanner.c" },
+    branch = "master",
+  },
+}
 
+vim.treesitter.language.register('templ', 'templ')
+
+-- additional filetypes
+vim.filetype.add({
+  extension = {
+    templ = "templ",
+  },
+})
 
 -- function to display metals status in the statusline
 local function metals_status()
@@ -28,6 +44,7 @@ lvim.builtin.lualine.sections.lualine_c = {
 }
 
 lvim.plugins = {
+  'joerdav/templ.vim',
 
   "olexsmir/gopher.nvim",
   "leoluz/nvim-dap-go",
@@ -95,7 +112,22 @@ lvim.plugins = {
       require("fidget").setup()
     end,
   },
+  {
+    "kylechui/nvim-surround",
+    version = "*", -- Use for stability; omit to use `main` branch for the latest features
+    event = "VeryLazy",
+    config = function()
+      require("nvim-surround").setup({
+        -- Configuration here, or leave empty to use defaults
+      })
+    end
+  },
 
+  'edKotinsky/Arduino.nvim',
+  "lervag/vimtex",
+  "kdheepak/cmp-latex-symbols",
+  "KeitaNakamura/tex-conceal.vim",
+  -- "SirVer/ultisnips",
 
 }
 
@@ -130,6 +162,27 @@ lvim.lsp.installer.setup.ensure_installed = {
   "tailwindcss",
   "elixirls",
   "ocamllsp",
+  "rust_analyzer",
+  "pyright",
+  "gopls",
+  "jsonls",
+  "yamlls",
+  "dockerls",
+  "bashls",
+  "clangd",
+  "golangci_lint_ls",
+  "marksman",
+  "pylsp",
+  "texlab",
+  "html",
+  "cssls",
+  "zls",
+  "tailwindcss",
+  "sqls",
+  "vimls",
+  "jsonls",
+  "ansiblels",
+  "texlab",
 
 }
 
@@ -139,8 +192,8 @@ lvim.lsp.installer.setup.ensure_installed = {
 ------------------------
 local formatters = require "lvim.lsp.null-ls.formatters"
 formatters.setup {
-  { command = "goimports",    filetypes = { "go" } },
-  { command = "gofumpt",      filetypes = { "go" } },
+  { command = "goimports",    filetypes = { "go", "templ" } },
+  { command = "gofumpt",      filetypes = { "go", "templ" } },
   { command = "clang_format", filetypes = { "cpp", "c" } },
 
   {
@@ -205,6 +258,9 @@ lsp_manager.setup("gopls", {
   end,
   on_init = require("lvim.lsp").common_on_init,
   capabilities = require("lvim.lsp").common_capabilities(),
+  cmd = { "gopls" },
+  filetypes = { "go", "gomod", "gowork", "gotmpl", "templ" },
+  --   w root_dir = util.root_pattern("go.work", "go.mod", ".git"),
   settings = {
     gopls = {
       usePlaceholders = true,
@@ -236,13 +292,17 @@ gopher.setup {
   },
 }
 
-vim.list_extend(lvim.lsp.automatic_configuration.skipped_servers, { "tailwindcss", "clangd" })
+vim.list_extend(lvim.lsp.automatic_configuration.skipped_servers, { "tailwindcss" })
 local opts = {
   root_dir = function(fname)
     local util = require "lspconfig/util"
     return util.root_pattern("assets/tailwind.config.js", "tailwind.config.js", "tailwind.config.cjs", "tailwind.js",
       "tailwind.cjs")(fname)
   end,
+  filetypes = {
+    'templ'
+    -- include any other filetypes where you need tailwindcss
+  },
   init_options = {
     userLanguages = { heex = "html", elixir = "html" }
   },
@@ -363,7 +423,7 @@ lsp_manager.setup("html", {
   on_attach = on_attach,
   capabilities = capabilities,
   cmd = { "vscode-html-language-server", "--stdio" },
-  filetype = { "html", "template", "jsx", "tsx", "svelte", "tmpl" },
+  filetype = { "html", "template", "jsx", "tsx", "svelte", "tmpl", "templ" },
 
 })
 
@@ -383,12 +443,12 @@ lsp_manager.setup("tsserver", {
 })
 
 
-lsp_manager.setup("tailwindcss", {
-  on_attach = on_attach,
-  capabilities = capabilities,
-  cmd = { "vscode-tailwindcss", "--stdio" },
-  filetype = { "css", "scss", "less" },
-})
+-- lsp_manager.setup("tailwindcss", {
+--   on_attach = on_attach,
+--   capabilities = capabilities,
+--   cmd = { "vscode-tailwindcss", "--stdio" },
+--   filetype = { "css", "scss", "less" },
+-- })
 
 
 lsp_manager.setup("lua_ls", {
@@ -776,3 +836,29 @@ lsp_manager.setup("bashls", {
 
   }
 })
+
+
+
+-- Format current buffer using LSP.
+vim.api.nvim_create_autocmd(
+  {
+    -- 'BufWritePre' event triggers just before a buffer is written to file.
+    "BufWritePre"
+  },
+  {
+    pattern = { "*.templ" },
+    callback = function()
+      -- Format the current buffer using Neovim's built-in LSP (Language Server Protocol).
+      vim.lsp.buf.format()
+    end,
+  }
+)
+
+-- require("mason-lspconfig").setup {
+--   ensure_installed = { "lua_ls", "rust_analyzer" },
+-- }
+
+
+local lspconfig = require('lspconfig')
+-- ...
+lspconfig.htmx.setup {}
