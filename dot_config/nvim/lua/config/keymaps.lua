@@ -65,3 +65,7 @@ map("t", "<Esc>", "<C-\\><C-n>", {})
 
 -- Terminal
 map("n", "<C-t>", "<cmd>FloatermToggle<CR>", {})
+
+map("v", "<C-/>", "<ESC><cmd>lua require('Comment.api').toggle.linewise(vim.fn.visualmode())<CR>", {})
+
+map("n", "<C-/>", "<cmd>lua require('Comment.api').toggle.linewise.current()<CR>", {})
