@@ -23,7 +23,7 @@ return {
         "hbs",
         "heex",
         "templ",
-        "html.heex",
+        "gotmpl",
       },
     })
   end,

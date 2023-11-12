@@ -124,6 +124,7 @@ return {
     },
   },
 
+
   -- add pyright to lspconfig
   {
     "neovim/nvim-lspconfig",
@@ -142,9 +143,24 @@ return {
         end
     end
         },
+          
+      tailwindcss = {
+        -- exclude a filetype from the default_config
+        filetypes_exclude = { "markdown" },
+        -- add additional filetypes to the default_config
+        filetypes_include = { "html", "javascript", "typescript", "vue", "svelte", "css", "scss", "less", "heex", "gotmpl", "templ", 'tsx', 'jsx' },
+        -- to fully override the default_config, change the below
+        -- filetypes = {}
       },
+
+        htmx = {
+          { "htmx-lsp" },
+          filetypes = { "html", "tmpl", "heex", "gotmpl" },
+        },
     },
-  },
+        },
+    },
+
 
   -- add tsserver and setup with typescript.nvim instead of lspconfig
   {
@@ -163,8 +179,18 @@ return {
     opts = {
       ---@type lspconfig.options
       servers = {
+       gopls = {   filetypes = { "go", "gomod", "gowork", "gotmpl" ,"templ"},},
+
+        html = {on_attach = on_attach,
+  capabilities = capabilities,
+  cmd = { "vscode-html-language-server", "--stdio" },
+  filetypes = { "html", "template", "jsx", "tsx", "svelte", "tmpl", "templ","svelte" , "vue", "heex", "gotmpl"},},
+        cssls = {  on_attach = on_attach,
+  capabilities = capabilities,
+  cmd = { "vscode-css-language-server", "--stdio" },
+  filetypes = { "css", "scss", "less" },},
         -- tsserver will be automatically installed with mason and loaded with lspconfig
-        tsserver = {},
+  --      tsserver = {},
       },
       -- you can do any additional lsp server setup here
       -- return true if you don't want this server to be setup with lspconfig
@@ -180,6 +206,8 @@ return {
       },
     },
   },
+
+
 
   -- for typescript, LazyVim also includes extra specs to properly setup lspconfig,
   -- treesitter, mason and typescript.nvim. So instead of the above, you can use:
@@ -278,7 +306,8 @@ return {
         "elixir-ls",
         "gofumpt",
         "golangci-lint",
-        "julia-lsp"
+        "julia-lsp",
+        "htmx-lsp",
       },
     },
   },
@@ -352,4 +381,20 @@ return {
   {"jalvesaq/Nvim-R",
 lazy = false
   },
+
+  require'nvim-treesitter.configs'.setup {
+  autotag = {
+    enable = true,
+  }
+},
+
+-- new filetypes for prettier
+    {"stevearc/conform.nvim",
+opts =  function(_, opts)
+      opts.list_extend(opts.formatters_by_ft, {
+            ["svelte"] = {"prettier"}, -- "--parser", "svelte"},
+        ["templ"] = {"prettier"},
+      })
+    end,
+    },
 }
