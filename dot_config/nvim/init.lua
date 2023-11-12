@@ -54,7 +54,8 @@ parser_config.gotmpl = {
     files = { "src/parser.c" },
   },
   filetype = "gotmpl",
-  used_by = { "gohtmltmpl", "gotexttmpl", "gotmpl" },
+  -- may have to remove yaml for gotmpl
+  used_by = { "gohtmltmpl", "gotexttmpl", "gotmpl", "yaml" },
 }
 
 vim.filetype.add({
