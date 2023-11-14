@@ -11,6 +11,10 @@
 
 
 return {
+
+
+    {'danielo515/nvim-treesitter-reason'},
+
 {"vrischmann/tree-sitter-templ"},
 
   -- add gruvbox
@@ -152,6 +156,24 @@ return {
         -- to fully override the default_config, change the below
         -- filetypes = {}
       },
+            ocamllsp = {
+          cmd = { "ocamllsp" },
+          filetypes = { "ocaml", "ocaml.menhir", "ocaml.interface", "ocaml.ocamllex", "reason", "dune" },
+          root_dir = require("lspconfig.util").root_pattern("dune", "Makefile", "merlin.ini", ".git"),
+
+        },
+        svelte = {
+            cmd = { "svelteserver", "--stdio" },
+          filetypes = { "svelte" },
+
+        },
+bashls = {
+          cmd = { "bash-language-server", "start" },
+          filetypes = { "sh", "zsh" },
+        },
+
+      
+
 
         htmx = {
           { "htmx-lsp" },
@@ -216,6 +238,11 @@ return {
   -- add more treesitter parsers
   {
     "nvim-treesitter/nvim-treesitter",
+      lazy = false,
+  priority = 999,
+  build = ":TSUpdate",
+      cmd = { "TSUpdateSync" },
+
     dependencies = {
       "windwp/nvim-ts-autotag",
     },
@@ -241,12 +268,48 @@ return {
         "go",
         "rust",
         "ini",
-        "julia"
-      },
+        "julia",
+        "svelte",
+        "heex",
+        "css",
+        "scss",
+        "reason",
+        "toml",
+        "vue",
+        "ocaml",        
+        "dockerfile",
+            },
+require'nvim-treesitter.configs'.setup {
 
       autotag = {
         -- Setup autotag using treesitter config.
-        enable = true,
+          enable = true,
+    enable_rename = true,
+    enable_close = true,
+    enable_close_on_slash = true,
+        filetypes = {
+        "html",
+        "javascript",
+        "typescript",
+        "javascriptreact",
+        "typescriptreact",
+        "svelte",
+        "vue",
+        "tsx",
+        "jsx",
+        "rescript",
+        "xml",
+        "php",
+        "markdown",
+        "astro",
+        "glimmer",
+        "handlebars",
+        "hbs",
+        "heex",
+        "templ",
+        "gotmpl",      
+        },
+        },
       },
     },
   },
@@ -393,7 +456,7 @@ lazy = false
 opts =  function(_, opts)
       opts.list_extend(opts.formatters_by_ft, {
             ["svelte"] = {"prettier"}, -- "--parser", "svelte"},
-        ["templ"] = {"prettier"},
+       -- ["templ"] = {"prettier"},
       })
     end,
     },

@@ -35,6 +35,8 @@ require("lazy").setup({
     { import = "lazyvim.plugins.extras.editor.symbols-outline" },
     { import = "lazyvim.plugins.extras.formatting.black" },
     { import = "lazyvim.plugins.extras.editor.navic" },
+    { import = "lazyvim.plugins.extras.coding.yanky" },
+
     { import = "plugins" },
   },
   defaults = {
