@@ -139,13 +139,11 @@ return {
         -- pyright will be automatically installed with mason and loaded with lspconfig
         pyright = {},
       jsonls = {
-           on_new_config = function(new_config, _)
-        local julia = vim.fn.expand("~/.julia/environments/nvim-lspconfig/bin/julia")
-        if require'lspconfig'.util.path.is_file(julia) then
-        -- vim.notify("Hello!")
-            new_config.cmd[1] = julia
-        end
-    end
+            
+        },
+        julials = {
+          -- julia will be automatically installed with mason and loaded with lspconfig
+          -- julia = {},
         },
           
       tailwindcss = {
@@ -167,13 +165,32 @@ return {
           filetypes = { "svelte" },
 
         },
+        templ ={
+          cmd = {"templ", "lsp"},
+          filetypes = { "templ" },
+          root_dir = require("lspconfig.util").root_pattern("gp.work", "go.mod", ".git"),
+
+
+        },
+                ansiblels = {
+          cmd = { "ansible-language-server", "--stdio" },
+          filetypes = { "ansible" },
+        },
 bashls = {
           cmd = { "bash-language-server", "start" },
           filetypes = { "sh", "zsh" },
         },
 
+        taplo = {
+          cmd = { "taplo", "lsp" },
+          filetypes = { "toml" },
+        },
       
-
+ zls = {
+          cmd = { "zls" },
+          filetypes = { "zig", "zir" },
+          root_dir = require("lspconfig.util").root_pattern("zir.zls", "zls.zir", ".git"),
+        },
 
         htmx = {
           { "htmx-lsp" },
@@ -201,7 +218,7 @@ bashls = {
     opts = {
       ---@type lspconfig.options
       servers = {
-       gopls = {   filetypes = { "go", "gomod", "gowork", "gotmpl" ,"templ"},},
+       gopls = {   filetypes = { "go", "gomod", "gowork", "gotmpl" },},
 
         html = {on_attach = on_attach,
   capabilities = capabilities,
@@ -456,7 +473,10 @@ lazy = false
 opts =  function(_, opts)
       opts.list_extend(opts.formatters_by_ft, {
             ["svelte"] = {"prettier"}, -- "--parser", "svelte"},
-       -- ["templ"] = {"prettier"},
+       ["templ"] = {"prettier"},
+        ["html"] = {"prettier"},
+        ["css"] = {"prettier"},
+        ["gotmpl"] = {"prettier"},
       })
     end,
     },
