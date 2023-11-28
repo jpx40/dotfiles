@@ -64,4 +64,12 @@ vim.filetype.add({
   },
 })
 
+-- require("lspconfig").oxlint = {
+--   default_config = {
+--     cmd = { "oxlint", "lsp" },
+--     filetypes = { "js", "jsx", "ts", "tsx" },
+--     root_dir = require("lspconfig").util.root_pattern("package.json"),
+--     settings = {},
+--   },
+-- }
 --vim.lsp.set_log_level("debug")

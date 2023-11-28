@@ -59,6 +59,9 @@ return {
   'Exafunction/codeium.vim',
   config = function()
     -- Change '<C-g>' here to any keycode you like.
+      -- rewrite later
+      keys = {
+      },
     vim.keymap.set('i', '<C-h>', function() return vim.fn['codeium#Accept']() end, { expr = true })
     vim.keymap.set('i', '<c-;>', function() return vim.fn['codeium#CycleCompletions'](1) end, { expr = true })
     vim.keymap.set('i', '<c-,>', function() return vim.fn['codeium#CycleCompletions'](-1) end, { expr = true })
@@ -136,6 +139,12 @@ return {
     opts = {
       ---@type lspconfig.options
       servers = {
+
+        vls = {
+          cmd = { "v","ls" },
+          filetypes = { "v", "vlang" },
+          root_dir = require("lspconfig.util").root_pattern("v.mod", ".git"),
+        },
         -- pyright will be automatically installed with mason and loaded with lspconfig
         pyright = {},
       jsonls = {
@@ -191,7 +200,9 @@ bashls = {
           filetypes = { "zig", "zir" },
           root_dir = require("lspconfig.util").root_pattern("zir.zls", "zls.zir", ".git"),
         },
-
+sourcekit = {
+          cmd = { "sourcekit-lsp" },
+},
         htmx = {
           { "htmx-lsp" },
           filetypes = { "html", "tmpl", "heex", "gotmpl" },
@@ -295,6 +306,9 @@ bashls = {
         "vue",
         "ocaml",        
         "dockerfile",
+        "gitignore",
+        "v",
+        
             },
 require'nvim-treesitter.configs'.setup {
 
@@ -477,7 +491,11 @@ opts =  function(_, opts)
         ["html"] = {"prettier"},
         ["css"] = {"prettier"},
         ["gotmpl"] = {"prettier"},
+        ["heex"] = {"prettier"},
+        ["json"] = {"prettier"},
+
       })
-    end,
+   end,
     },
+  {"nathom/filetype.nvim"},
 }
