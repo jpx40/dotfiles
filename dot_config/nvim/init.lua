@@ -58,9 +58,19 @@ parser_config.gotmpl = {
   used_by = { "gohtmltmpl", "gotexttmpl", "gotmpl", "yaml" },
 }
 
-vim.filetype.add({
-  extension = {
-    tmpl = "gotmpl",
+-- vim.filetype.add({
+--   extension = {
+--     tmpl = "gotmpl",
+--   },
+-- })
+--
+require("filetype").setup({
+  overrides = {
+    extensions = {
+      tmpl = "templ",
+      v = "vlang",
+      re = "reason",
+    },
   },
 })
 

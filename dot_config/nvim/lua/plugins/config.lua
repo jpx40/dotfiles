@@ -11,6 +11,7 @@
 
 
 return {
+  { "nathom/filetype.nvim"  },
 
 
     {'danielo515/nvim-treesitter-reason'},
@@ -493,6 +494,7 @@ opts =  function(_, opts)
         ["gotmpl"] = {"prettier"},
         ["heex"] = {"prettier"},
         ["json"] = {"prettier"},
+      ["reason"] = {"refmt"},
 
       })
    end,
