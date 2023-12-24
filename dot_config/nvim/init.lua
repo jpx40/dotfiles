@@ -11,15 +11,15 @@ treesitter_parser_config.templ = {
 }
 
 -- tree-sitter-supercollider
-local parser_config = require("nvim-treesitter.parsers").get_parser_configs()
-parser_config.supercollider = {
-  install_info = {
-    url = "~/code/tree-sitter-supercollider",
-    files = { "src/parser.c" },
-  },
-  filetype = "supercollider", -- if filetype does not agrees with parser name
-  used_by = { "scd", "sc" }, -- additional filetypes that use this parser
-}
+-- local parser_config = require("nvim-treesitter.parsers").get_parser_configs()
+-- parser_config.supercollider = {
+--   install_info = {
+--     url = "~/code/tree-sitter-supercollider",
+--     files = { "src/parser.c" },
+--   },
+--   filetype = "supercollider", -- if filetype does not agrees with parser name
+--   used_by = { "scd", "sc" }, -- additional filetypes that use this parser
+-- }
 
 require("nvim-treesitter.configs").setup({
   indent = {
@@ -82,4 +82,4 @@ require("filetype").setup({
 --     settings = {},
 --   },
 -- }
---vim.lsp.set_log_level("debug")
+vim.lsp.set_log_level("debug")

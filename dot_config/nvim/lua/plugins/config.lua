@@ -11,12 +11,8 @@
 
 
 return {
-  { "nathom/filetype.nvim"  },
+  { "nathom/filetype.nvim" },
 
-
-    {'danielo515/nvim-treesitter-reason'},
-
-{"vrischmann/tree-sitter-templ"},
 
   -- add gruvbox
   { "ellisonleao/gruvbox.nvim" },
@@ -28,48 +24,10 @@ return {
       colorscheme = "onedark",
     },
   },
-  {'quarto-dev/quarto-nvim',
-  config = function()
-     require'quarto'.setup{
-  debug = false,
-  closePreviewOnExit = true,
-  lspFeatures = {
-    enabled = true,
-    languages = { 'r', 'python', 'julia', 'bash' },
-    chunks = 'curly', -- 'curly' or 'all'
-    diagnostics = {
-      enabled = true,
-      triggers = { "BufWritePost" }
-    },
-    completion = {
-      enabled = true,
-    },
-  },
-  keymap = {
-    hover = 'K',
-    definition = 'gd',
-    rename = '<leader>lR',
-    references = 'gr',
-  }
-}
-    end,
-  },
-  {"echasnovski/mini.comment", enabled = false},
 
-{
-  'Exafunction/codeium.vim',
-  config = function()
-    -- Change '<C-g>' here to any keycode you like.
-      -- rewrite later
-      keys = {
-      },
-    vim.keymap.set('i', '<C-h>', function() return vim.fn['codeium#Accept']() end, { expr = true })
-    vim.keymap.set('i', '<c-;>', function() return vim.fn['codeium#CycleCompletions'](1) end, { expr = true })
-    vim.keymap.set('i', '<c-,>', function() return vim.fn['codeium#CycleCompletions'](-1) end, { expr = true })
-    vim.keymap.set('i', '<c-x>', function() return vim.fn['codeium#Clear']() end, { expr = true })
-  end
+  { "echasnovski/mini.comment", enabled = false },
 
-  },
+
 
   -- change trouble config
   {
@@ -92,9 +50,9 @@ return {
 
   -- override nvim-cmp and add cmp-emoji
 
-  {    'jmbuhr/otter.nvim'},
+  { 'jmbuhr/otter.nvim' },
 
---{'luk400/vim-jukit' },
+  --{'luk400/vim-jukit' },
 
   -- change some telescope options and a keymap to browse plugin files
   {
@@ -118,7 +76,7 @@ return {
       },
     },
   },
---  { 'dccsillag/magma-nvim', run = ':UpdateRemotePlugins' },
+  --  { 'dccsillag/magma-nvim', run = ':UpdateRemotePlugins' },
 
   -- add telescope-fzf-native
   {
@@ -141,87 +99,22 @@ return {
       ---@type lspconfig.options
       servers = {
 
-        vls = {
-          cmd = { "v","ls" },
-          filetypes = { "v", "vlang" },
-          root_dir = require("lspconfig.util").root_pattern("v.mod", ".git"),
-        },
-        -- pyright will be automatically installed with mason and loaded with lspconfig
-        pyright = {},
-      jsonls = {
-            
-        },
-        julials = {
-          -- julia will be automatically installed with mason and loaded with lspconfig
-          -- julia = {},
-        },
-          
-      tailwindcss = {
-        -- exclude a filetype from the default_config
-        filetypes_exclude = { "markdown" },
-        -- add additional filetypes to the default_config
-        filetypes_include = { "html", "javascript", "typescript", "vue", "svelte", "css", "scss", "less", "heex", "gotmpl", "templ", 'tsx', 'jsx' },
-        -- to fully override the default_config, change the below
-        -- filetypes = {}
+
       },
-            ocamllsp = {
-          cmd = { "ocamllsp" },
-          filetypes = { "ocaml", "ocaml.menhir", "ocaml.interface", "ocaml.ocamllex", "reason", "dune" },
-          root_dir = require("lspconfig.util").root_pattern("dune", "Makefile", "merlin.ini", ".git"),
-
-        },
-        svelte = {
-            cmd = { "svelteserver", "--stdio" },
-          filetypes = { "svelte" },
-
-        },
-        templ ={
-          cmd = {"templ", "lsp"},
-          filetypes = { "templ" },
-          root_dir = require("lspconfig.util").root_pattern("gp.work", "go.mod", ".git"),
-
-
-        },
-                ansiblels = {
-          cmd = { "ansible-language-server", "--stdio" },
-          filetypes = { "ansible" },
-        },
-bashls = {
-          cmd = { "bash-language-server", "start" },
-          filetypes = { "sh", "zsh" },
-        },
-
-        taplo = {
-          cmd = { "taplo", "lsp" },
-          filetypes = { "toml" },
-        },
-      
- zls = {
-          cmd = { "zls" },
-          filetypes = { "zig", "zir" },
-          root_dir = require("lspconfig.util").root_pattern("zir.zls", "zls.zir", ".git"),
-        },
-sourcekit = {
-          cmd = { "sourcekit-lsp" },
-},
-        htmx = {
-          { "htmx-lsp" },
-          filetypes = { "html", "tmpl", "heex", "gotmpl" },
-        },
     },
-        },
-    },
+  },
 
 
   -- add tsserver and setup with typescript.nvim instead of lspconfig
   {
+
     "neovim/nvim-lspconfig",
     dependencies = {
       "jose-elias-alvarez/typescript.nvim",
       init = function()
         require("lazyvim.util").lsp.on_attach(function(_, buffer)
           -- stylua: ignore
-          vim.keymap.set( "n", "<leader>co", "TypescriptOrganizeImports", { buffer = buffer, desc = "Organize Imports" })
+          vim.keymap.set("n", "<leader>co", "TypescriptOrganizeImports", { buffer = buffer, desc = "Organize Imports" })
           vim.keymap.set("n", "<leader>cR", "TypescriptRenameFile", { desc = "Rename File", buffer = buffer })
         end)
       end,
@@ -230,18 +123,21 @@ sourcekit = {
     opts = {
       ---@type lspconfig.options
       servers = {
-       gopls = {   filetypes = { "go", "gomod", "gowork", "gotmpl" },},
 
-        html = {on_attach = on_attach,
-  capabilities = capabilities,
-  cmd = { "vscode-html-language-server", "--stdio" },
-  filetypes = { "html", "template", "jsx", "tsx", "svelte", "tmpl", "templ","svelte" , "vue", "heex", "gotmpl"},},
-        cssls = {  on_attach = on_attach,
-  capabilities = capabilities,
-  cmd = { "vscode-css-language-server", "--stdio" },
-  filetypes = { "css", "scss", "less" },},
+        html = {
+          on_attach = on_attach,
+          capabilities = capabilities,
+          cmd = { "vscode-html-language-server", "--stdio" },
+          filetypes = { "html", "template", "jsx", "tsx", "svelte", "tmpl", "templ", "svelte", "vue", "heex", "gotmpl" },
+        },
+        cssls = {
+          on_attach = on_attach,
+          capabilities = capabilities,
+          cmd = { "vscode-css-language-server", "--stdio" },
+          filetypes = { "css", "scss", "less" },
+        },
         -- tsserver will be automatically installed with mason and loaded with lspconfig
-  --      tsserver = {},
+        --      tsserver = {},
       },
       -- you can do any additional lsp server setup here
       -- return true if you don't want this server to be setup with lspconfig
@@ -265,100 +161,7 @@ sourcekit = {
   { import = "lazyvim.plugins.extras.lang.typescript" },
 
   -- add more treesitter parsers
-  {
-    "nvim-treesitter/nvim-treesitter",
-      lazy = false,
-  priority = 999,
-  build = ":TSUpdate",
-      cmd = { "TSUpdateSync" },
 
-    dependencies = {
-      "windwp/nvim-ts-autotag",
-    },
-    opts = {
-      ensure_installed = {
-        "bash",
-        "html",
-        "javascript",
-        "json",
-        "lua",
-        "markdown",
-        "markdown_inline",
-        "python",
-        "query",
-        "regex",
-        "tsx",
-        "typescript",
-        "vim",
-        "yaml",
-        "elixir",
-        "zig",
-        "r",
-        "go",
-        "rust",
-        "ini",
-        "julia",
-        "svelte",
-        "heex",
-        "css",
-        "scss",
-        "reason",
-        "toml",
-        "vue",
-        "ocaml",        
-        "dockerfile",
-        "gitignore",
-        "v",
-        
-            },
-require'nvim-treesitter.configs'.setup {
-
-      autotag = {
-        -- Setup autotag using treesitter config.
-          enable = true,
-    enable_rename = true,
-    enable_close = true,
-    enable_close_on_slash = true,
-        filetypes = {
-        "html",
-        "javascript",
-        "typescript",
-        "javascriptreact",
-        "typescriptreact",
-        "svelte",
-        "vue",
-        "tsx",
-        "jsx",
-        "rescript",
-        "xml",
-        "php",
-        "markdown",
-        "astro",
-        "glimmer",
-        "handlebars",
-        "hbs",
-        "heex",
-        "templ",
-        "gotmpl",      
-        },
-        },
-      },
-    },
-  },
-
-  -- since `vim.tbl_deep_extend`, can only merge tables and not lists, the code above
-  -- would overwrite `ensure_installed` with the new value.
-  -- If you'd rather extend the default config, use the code below instead:
-  {
-    "nvim-treesitter/nvim-treesitter",
-    opts = function(_, opts)
-      -- add tsx and treesitter
-      vim.list_extend(opts.ensure_installed, {
-        "tsx",
-        "typescript",
-      })
-    end,
-  },
 
   -- the opts function can also be used to change the default opts:
   {
@@ -406,7 +209,7 @@ require'nvim-treesitter.configs'.setup {
       },
     },
   },
-    {
+  {
     "kiyoon/jupynium.nvim",
     build = "pip3 install --user .",
     -- build = "conda run --no-capture-output -n jupynium pip install .",
@@ -466,38 +269,23 @@ require'nvim-treesitter.configs'.setup {
       })
     end,
   },
-  {'kevinhwang91/nvim-ufo', requires = 'kevinhwang91/promise-async'},
+  { 'kevinhwang91/nvim-ufo',  requires = 'kevinhwang91/promise-async' },
 
-    {'quarto-dev/quarto-nvim', enabled = false},
+  { 'quarto-dev/quarto-nvim', enabled = false },
 
-  {'kevinhwang91/nvim-ufo', enabled = false},
+  { 'kevinhwang91/nvim-ufo',  enabled = false },
 
--- R
-  {"jalvesaq/Nvim-R",
-lazy = false
+  -- R
+  {
+    "jalvesaq/Nvim-R",
+    lazy = false
   },
 
-  require'nvim-treesitter.configs'.setup {
-  autotag = {
-    enable = true,
-  }
-},
+  require 'nvim-treesitter.configs'.setup {
+    autotag = {
+      enable = true,
+    }
+  },
 
--- new filetypes for prettier
-    {"stevearc/conform.nvim",
-opts =  function(_, opts)
-      opts.list_extend(opts.formatters_by_ft, {
-            ["svelte"] = {"prettier"}, -- "--parser", "svelte"},
-       ["templ"] = {"prettier"},
-        ["html"] = {"prettier"},
-        ["css"] = {"prettier"},
-        ["gotmpl"] = {"prettier"},
-        ["heex"] = {"prettier"},
-        ["json"] = {"prettier"},
-      ["reason"] = {"refmt"},
 
-      })
-   end,
-    },
-  {"nathom/filetype.nvim"},
 }
