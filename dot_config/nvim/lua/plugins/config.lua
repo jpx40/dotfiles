@@ -54,41 +54,7 @@ return {
 
   --{'luk400/vim-jukit' },
 
-  -- change some telescope options and a keymap to browse plugin files
-  {
-    "nvim-telescope/telescope.nvim",
-    keys = {
-      -- add a keymap to browse plugin files
-      -- stylua: ignore
-      {
-        "<leader>fp",
-        function() require("telescope.builtin").find_files({ cwd = require("lazy.core.config").options.root }) end,
-        desc = "Find Plugin File",
-      },
-    },
-    -- change some options
-    opts = {
-      defaults = {
-        layout_strategy = "horizontal",
-        layout_config = { prompt_position = "top" },
-        sorting_strategy = "ascending",
-        winblend = 0,
-      },
-    },
-  },
-  --  { 'dccsillag/magma-nvim', run = ':UpdateRemotePlugins' },
 
-  -- add telescope-fzf-native
-  {
-    "telescope.nvim",
-    dependencies = {
-      "nvim-telescope/telescope-fzf-native.nvim",
-      build = "make",
-      config = function()
-        require("telescope").load_extension("fzf")
-      end,
-    },
-  },
 
 
   -- add pyright to lspconfig
@@ -188,27 +154,7 @@ return {
   -- add jsonls and schemastore packages, and setup treesitter for json, json5 and jsonc
   { import = "lazyvim.plugins.extras.lang.json" },
 
-  -- add any tools you want to have installed below
-  {
-    "williamboman/mason.nvim",
-    opts = {
-      ensure_installed = {
-        "stylua",
-        "shellcheck",
-        "shfmt",
-        "flake8",
-        "gopls",
-        "goimports",
-        "bash-language-server",
-        "pyright",
-        "elixir-ls",
-        "gofumpt",
-        "golangci-lint",
-        "julia-lsp",
-        "htmx-lsp",
-      },
-    },
-  },
+
   {
     "kiyoon/jupynium.nvim",
     build = "pip3 install --user .",
@@ -269,17 +215,7 @@ return {
       })
     end,
   },
-  { 'kevinhwang91/nvim-ufo',  requires = 'kevinhwang91/promise-async' },
 
-  { 'quarto-dev/quarto-nvim', enabled = false },
-
-  { 'kevinhwang91/nvim-ufo',  enabled = false },
-
-  -- R
-  {
-    "jalvesaq/Nvim-R",
-    lazy = false
-  },
 
   require 'nvim-treesitter.configs'.setup {
     autotag = {
