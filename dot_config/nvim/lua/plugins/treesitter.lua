@@ -73,7 +73,10 @@ require'nvim-treesitter.configs'.setup {
         "hbs",
         "heex",
         "templ",
-        "gotmpl",      
+        "gotmpl",
+        "go",
+        "elixir",
+
         },
         },
       },
