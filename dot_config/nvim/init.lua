@@ -82,4 +82,5 @@ require("filetype").setup({
 --     settings = {},
 --   },
 -- }
-vim.lsp.set_log_level("debug")
+-- vim.lsp.set_log_level("debug")
+--

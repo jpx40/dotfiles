@@ -1,5 +1,5 @@
-  return {
-  -- then: setup supertab in cmp
+return {
+  -- then: setup supertap inside cmp
   {
     "hrsh7th/nvim-cmp",
     dependencies = {
@@ -39,7 +39,8 @@
             fallback()
           end
         end, { "i", "s" }),
+        ["<C-x>"] = cmp.mapping.confirm({ select = true }), -- Accept currently selected item. Set `select` to `false` to only confirm explicitly selected items.
       })
     end,
   },
-  }
+}
