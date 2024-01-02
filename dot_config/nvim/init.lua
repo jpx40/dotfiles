@@ -70,6 +70,7 @@ require("filetype").setup({
       tmpl = "templ",
       v = "vlang",
       re = "reason",
+      slint = "slint",
     },
   },
 })

@@ -5,6 +5,7 @@ return { -- new filetypes for prettier
     opts = {
       formatters_by_ft = {
         templ = { "prettier" },
+        -- rust = { "prettier" },
       },
     },
   },

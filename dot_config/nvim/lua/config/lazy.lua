@@ -38,6 +38,7 @@ require("lazy").setup({
     { import = "lazyvim.plugins.extras.ui.edgy" },
     { import = "lazyvim.plugins.extras.editor.aerial" },
     { import = "lazyvim.plugins.extras.editor.symbols-outline" },
+    { import = "lazyvim.plugins.extras.lang.cmake" },
     -- { import = "lazyvim.plugins.extras.editor.leap" },
 
     { import = "plugins" },
