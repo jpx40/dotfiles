@@ -71,6 +71,7 @@ require("filetype").setup({
       v = "vlang",
       re = "reason",
       slint = "slint",
+      sql = "sql",
     },
   },
 })

@@ -1,1 +1,6 @@
-return { "scalameta/nvim-metals", requires = { "nvim-lua/plenary.nvim" } }
+return {
+  -- "scalameta/nvim-metals",
+  -- config = function()
+  --   require("user.metals").config()
+  -- end,
+}

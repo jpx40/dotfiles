@@ -26,5 +26,13 @@ return {
   "stevearc/dressing.nvim", -- optional, UI for :JupyniumKernelSelect
 
   "JoosepAlviste/nvim-ts-context-commentstring",
-}
 
+  {
+    "ray-x/navigator.lua",
+    enabled = false,
+    dependencies = {
+      { "ray-x/guihua.lua", run = "cd lua/fzy && make" },
+      { "neovim/nvim-lspconfig" },
+    },
+  },
+}

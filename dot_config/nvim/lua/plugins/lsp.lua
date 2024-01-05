@@ -67,6 +67,7 @@ return {
       -- nim_langserver = {},
       grammarly = {},
       purescriptls = {},
+      clojure_lsp = {},
       vimls = {},
       ocamllsp = {
         cmd = { "ocamllsp" },
