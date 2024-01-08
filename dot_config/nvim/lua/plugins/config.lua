@@ -121,7 +121,7 @@ return {
                 "server",
             },    },
             },
-          --   rustfmt = {overrideCommand = "leposfmt --stdin --rustfmt"},
+           rustfmt = {overrideCommand = "leposfmt --stdin --rustfmt"},
           },
 
                },

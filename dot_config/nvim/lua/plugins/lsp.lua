@@ -6,8 +6,12 @@ return {
   opts = {
     ---@type lspconfig.options
     servers = {
-      unocss = {},
-      rescriptls = {},
+      unocss = {
+        cmd = { "unocss-language-server", "--stdio" },
+        filetypes = { "html", "javascriptreact", "rescript", "typescriptreact", "vue", "svelte", "templ", "jsx", "tsx", "js", "ts" }, 
+        root_dir = require("lspconfig.util").root_pattern('unocss.config.js', 'unocss.config.ts', 'uno.config.js', 'uno.config.ts'),
+      },
+  rescriptls = {},
       remark_ls = {},
       yamlls = {},
       vls = {

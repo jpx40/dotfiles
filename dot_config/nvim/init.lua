@@ -72,6 +72,7 @@ require("filetype").setup({
       re = "reason",
       slint = "slint",
       sql = "sql",
+      html = "html",
     },
   },
 })
