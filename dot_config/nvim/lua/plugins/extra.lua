@@ -18,7 +18,8 @@ return {
 
   {
     "kiyoon/jupynium.nvim",
-    build = "pip3 install --user .",
+    enabled = false,
+    build = "pip3 install --user . --break-system-packages",
     -- build = "conda run --no-capture-output -n jupynium pip install .",
     -- enabled = vim.fn.isdirectory(vim.fn.expand "~/miniconda3/envs/jupynium"),
   },
@@ -35,4 +36,13 @@ return {
       { "neovim/nvim-lspconfig" },
     },
   },
+  {
+    "cuducos/yaml.nvim",
+    ft = { "yaml" }, -- optional
+    dependencies = {
+      "nvim-treesitter/nvim-treesitter",
+      "nvim-telescope/telescope.nvim", -- optional
+    },
+  },
+  { "skywind3000/asyncrun.vim" },
 }

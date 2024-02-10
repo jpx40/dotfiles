@@ -27,5 +27,13 @@ alias jet=/home/jonas/.julia/packages/JET/Qe4k4/jet
 alias roll=rollup -c --watch
 
 
-alias scss=sass --watch src/styles:assets/styles
+#alias scss=sass --watch src/styles:assets/styles
+alias scss=sass
 
+alias c=cargo
+
+alias nv=nvim
+
+alias vim=nvim
+
+alias j=julia

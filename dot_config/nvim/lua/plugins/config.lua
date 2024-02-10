@@ -11,6 +11,13 @@
 
 
 return {
+  {
+  "L3MON4D3/LuaSnip",
+  keys = function()
+    return {}
+  end,
+},
+
   { "nathom/filetype.nvim" },
 
 
@@ -121,7 +128,7 @@ return {
                 "server",
             },    },
             },
-           rustfmt = {overrideCommand = "leposfmt --stdin --rustfmt"},
+        --   rustfmt = {overrideCommand = "leposfmt --stdin --rustfmt"},
           },
 
                },
@@ -173,23 +180,35 @@ return {
   { import = "lazyvim.plugins.extras.lang.json" },
 
 
-  
 
   -- Use <tab> for completion and snippets (supertab)
   -- first: disable default <tab> and <s-tab> behavior in LuaSnip
-  {
-    "L3MON4D3/LuaSnip",
-    keys = function()
-      return {}
-    end,
-  },
-
 
   require 'nvim-treesitter.configs'.setup {
     autotag = {
       enable = true,
     }
   },
+  {
+  "neovim/nvim-lspconfig",
+  opts = {
+    setup = {
+      clangd = function(_, opts)
+        opts.capabilities.offsetEncoding = { "utf-16" }
+      end,
+    },
+  },
+},
+  {
+  "neovim/nvim-lspconfig",
+  opts = {
+    setup = {
+      clangd = function(_, opts)
+        opts.capabilities.offsetEncoding = { "utf-16" }
+      end,
+    },
+  },
+}
 
 
 }

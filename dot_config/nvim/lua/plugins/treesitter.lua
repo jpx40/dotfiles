@@ -1,9 +1,10 @@
-return { {
-    "nvim-treesitter/nvim-treesitter",
-      lazy = false,
-  priority = 999,
-  build = ":TSUpdate",
-      cmd = { "TSUpdateSync" },
+return {
+  {
+    "nvim-treesitter/nvim-treesitter", commit="842507a",
+    lazy = false,
+    priority = 999,
+    build = ":TSUpdate",
+    cmd = { "TSUpdateSync" },
 
     dependencies = {
       "windwp/nvim-ts-autotag",
@@ -38,48 +39,46 @@ return { {
         "reason",
         "toml",
         "vue",
-        "ocaml",        
+        "ocaml",
         "dockerfile",
         "gitignore",
         "v",
-        "sql"
-        
-            },
-require'nvim-treesitter.configs'.setup {
-
-      autotag = {
-        -- Setup autotag using treesitter config.
-          enable = true,
-    enable_rename = true,
-    enable_close = true,
-    enable_close_on_slash = true,
-        filetypes = {
-        "html",
-        "javascript",
-        "typescript",
-        "javascriptreact",
-        "typescriptreact",
-        "svelte",
-        "vue",
-        "tsx",
-        "jsx",
-        "rescript",
-        "xml",
-        "php",
-        "markdown",
-        "astro",
-        "glimmer",
-        "handlebars",
-        "hbs",
-        "heex",
-        "templ",
-        "gotmpl",
-        "go",
-        "elixir",
-
-        },
-        },
+        "sql",
       },
+      require("nvim-treesitter.configs").setup({
+
+        autotag = {
+          -- Setup autotag using treesitter config.
+          enable = true,
+          enable_rename = true,
+          enable_close = true,
+          enable_close_on_slash = true,
+          filetypes = {
+            "html",
+            "javascript",
+            "typescript",
+            "javascriptreact",
+            "typescriptreact",
+            "svelte",
+            "vue",
+            "tsx",
+            "jsx",
+            "rescript",
+            "xml",
+            "php",
+            "markdown",
+            "astro",
+            "glimmer",
+            "handlebars",
+            "hbs",
+            "heex",
+            "templ",
+            "gotmpl",
+            "go",
+            "elixir",
+          },
+        },
+      }),
     },
   },
 
@@ -95,4 +94,6 @@ require'nvim-treesitter.configs'.setup {
         "typescript",
       })
     end,
-  },}
+  },
+}
+

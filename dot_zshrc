@@ -81,7 +81,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git golang ripgrep zoxide z scala themes nmap systemadmin rust colemak python elixir fzf) # pipenv
+plugins=(git golang ripgrep zoxide z scala themes nmap copypath copybuffer systemadmin rust colemak python elixir fzf) # pipenv
 
 source $ZSH/oh-my-zsh.sh
 
@@ -169,3 +169,24 @@ zstyle ':completion::complete:*' use-cache 1
 
 
 zstyle ':completion::complete:*' use-cache 1
+
+# pnpm
+export PNPM_HOME="/home/jonas/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
+
+
+
+LEPTOS_TAILWIND_VERSION=v3.4.1
+
+# >>> juliaup initialize >>>
+
+# !! Contents within this block are managed by juliaup !!
+
+path=('/home/jonas/.juliaup/bin' $path)
+export PATH
+
+# <<< juliaup initialize <<<

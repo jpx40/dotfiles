@@ -1,0 +1,11 @@
+
+import = [
+  "~/.config/alacritty/keybindings.toml",
+  "~/.config/alacritty/theme.toml",
+]
+
+[cursor]
+style = 'Beam'
+
+
+[env]

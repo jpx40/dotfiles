@@ -8,10 +8,27 @@ return {
     servers = {
       unocss = {
         cmd = { "unocss-language-server", "--stdio" },
-        filetypes = { "html", "javascriptreact", "rescript", "typescriptreact", "vue", "svelte", "templ", "jsx", "tsx", "js", "ts" }, 
-        root_dir = require("lspconfig.util").root_pattern('unocss.config.js', 'unocss.config.ts', 'uno.config.js', 'uno.config.ts'),
+        filetypes = {
+          "html",
+          "javascriptreact",
+          "rescript",
+          "typescriptreact",
+          "vue",
+          "svelte",
+          "templ",
+          "jsx",
+          "tsx",
+          "js",
+          "ts",
+        },
+        root_dir = require("lspconfig.util").root_pattern(
+          "unocss.config.js",
+          "unocss.config.ts",
+          "uno.config.js",
+          "uno.config.ts"
+        ),
       },
-  rescriptls = {},
+      rescriptls = {},
       remark_ls = {},
       yamlls = {},
       vls = {
@@ -22,6 +39,14 @@ return {
       -- pyright will be automatically installed with mason and loaded with lspconfig
       ruff_lsp = {},
 
+      gleam = {},
+
+      asm_lsp = {},
+
+      solargraph = {},
+
+      als = {},
+
       kotlin_language_server = {},
 
       elmls = {},
@@ -29,9 +54,37 @@ return {
       r_language_server = {},
 
       jsonls = {},
+
       julials = {
         -- julia will be automatically installed with mason and loaded with lspconfig
         -- julia = {},
+      },
+
+      ast_grep = {
+        cmd = { "ast-grep", "lsp" },
+        filetypes = {
+          "c",
+          "cpp",
+          "rust",
+          "go",
+          "java",
+          "python",
+          "javascript",
+          "typescript",
+          "html",
+          "css",
+          "kotlin",
+          "dart",
+          "lua",
+        },
+        root_dir = require("lspconfig.util").root_pattern("sgconfig.yaml", "sgconfig.yml"),
+        single_file_support = true,
+      },
+
+      sorbet = {
+        cmd = { "srb", "tc", "--lsp" },
+        filetypes = { "ruby", "cruby", "ruby.rbs", "rb", "duby", "dru" },
+        root_dir = require("lspconfig.util").root_pattern("Gemfile", ".git"),
       },
 
       slint_lsp = { cmd = { "slint-lsp" }, filetypes = { "slint" }, single_file_support = true },
@@ -39,6 +92,9 @@ return {
       tailwindcss = {
         -- exclude a filetype from the default_config
         filetypes_exclude = { "markdown" },
+
+        experimental = { classRegex = 'class: "(.*)"' },
+
         -- add additional filetypes to the default_config
         filetypes_include = {
           "html",
@@ -54,9 +110,9 @@ return {
           "templ",
           "tsx",
           "jsx",
-          "rs",
-          "rust",
         },
+
+        includeLanguages = { rust = "html" },
         -- to fully override the default_config, change the below
         -- filetypes = {}
       },

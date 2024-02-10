@@ -1,5 +1,7 @@
 return { -- add any tools you want to have installed below
   {
+    -- https://analysis-tools.dev/tools?
+    -- https://github.com/williamboman/mason.nvim/blob/main/doc/reference.md
     "williamboman/mason.nvim",
     opts = {
       ensure_installed = {
@@ -17,8 +19,15 @@ return { -- add any tools you want to have installed below
         "julia-lsp",
         "htmx-lsp",
         "oxlint",
+        "delve",
+        "ktlint",
+        "ocamlformat",
+        "biome",
+        "rufo",
+        "rubocop",
+        --        "rust-analyzer@2024-01-01",
+        --        "staticlint",
       },
     },
   },
 }
-

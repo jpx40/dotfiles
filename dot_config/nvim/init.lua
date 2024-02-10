@@ -57,13 +57,11 @@ parser_config.gotmpl = {
   -- may have to remove yaml for gotmpl
   used_by = { "gohtmltmpl", "gotexttmpl", "gotmpl", "yaml" },
 }
-
 -- vim.filetype.add({
 --   extension = {
 --     tmpl = "gotmpl",
 --   },
 -- })
---
 require("filetype").setup({
   overrides = {
     extensions = {
@@ -73,6 +71,8 @@ require("filetype").setup({
       slint = "slint",
       sql = "sql",
       html = "html",
+      bash = "sh",
+      sh = "sh",
     },
   },
 })
@@ -85,5 +85,5 @@ require("filetype").setup({
 --     settings = {},
 --   },
 -- }
--- vim.lsp.set_log_level("debug")
+vim.lsp.set_log_level("debug")
 --

@@ -1,2 +1,4 @@
 elvish 
 exit
+1 + 1
+exit
